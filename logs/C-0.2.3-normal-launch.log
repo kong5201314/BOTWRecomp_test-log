@@ -1,0 +1,258 @@
+C - BOTWRecompAndroid 0.2.3-beta, NORMAL LAUNCH  (baseline for comparison with A)
+
+Same device, same game files, stock Mali driver, normal launch, no env vars.
+Recorded immediately before upgrading to 0.2.4.
+
+RESULT  : text missing. 0.2.3 also had the 2-9 fps regression on Mali.
+
+SUMMARY : host import enabled for the full 3120 MB heap, fallback never fires
+          (0 occurrences). Compare with A: the vk lines are identical, i.e.
+          0.2.4 did not change the host_import path, only the caching.
+
+Scope   : only lines emitted by the app (log tag BOTWRecompAndroid) are kept.
+          Timestamps are device local time (UTC+8). App pid 26280.
+------------------------------------------------------------------------------
+
+10-31 00:00:20.427 I/BOTWRecompAndroid(26280): [android] guest window 0x100000000-0x420000000
+10-31 00:00:20.427 I/BOTWRecompAndroid(26280): [android] the last run ended: exit self (reason 1, status 0) at 2026-10-30 23:52:10, pss 0 MB, rss 0 MB: 
+10-31 00:00:20.980 I/BOTWRecompAndroid(26280): [paths] data: /storage/emulated/0/Android/data/com.botwrecomp.android/files/v182 (game version 182)
+10-31 00:00:20.981 I/BOTWRecompAndroid(26280): [settings] loaded botwrecompandroid.ini
+10-31 00:00:20.981 I/BOTWRecompAndroid(26280): [vk] Turnip LRZ on (settings)
+10-31 00:00:21.041 I/BOTWRecompAndroid(26280): [vk] gpu 0: Mali-G1-Ultra MC12 (api 1.3.305)
+10-31 00:00:21.041 I/BOTWRecompAndroid(26280): [vk] using Mali-G1-Ultra MC12 (Vulkan 1.3)
+10-31 00:00:21.042 I/BOTWRecompAndroid(26280): [vk-cap] gpu Mali-G1-Ultra MC12 vendor 0x13b5 device 0xe8800010 api 1.3.305 driver-id 9 name Mali-G1-Ultra MC12 info v1.r54p1-11eac0.a7f4c76.d66d1d5ec15c63b7cede1928bfff931d
+10-31 00:00:21.042 I/BOTWRecompAndroid(26280): [vk-cap] storage16 1 timeline 1 mirror-clamp 1 scalar 1 dynamic-rendering 1 sync2 1 demote 1 terminate 1 maintenance4 1 int64 1 int8 1 storage8 1 uniform-storage8 1 BC 0 ASTC 1 timestamps 1
+10-31 00:00:21.042 I/BOTWRecompAndroid(26280): [vk-cap] storage range 2048 MB, storage offset alignment 64, memory types 0:0x7 1:0xb 2:0x11 3:0x21
+10-31 00:00:21.044 I/BOTWRecompAndroid(26280): [vk] Vulkan 1.3 device, 4 extensions
+10-31 00:00:21.063 I/BOTWRecompAndroid(26280): [vk] swapchain: surface 2354x1080 transform 0x2, window 2354x1080, present mode 1, images 5-64
+10-31 00:00:21.120 I/BOTWRecompAndroid(26280): [ui] menus in zh-Hans: /system/fonts/NotoSansCJK-Regular.ttc can't be used
+10-31 00:00:21.145 I/BOTWRecompAndroid(26280): [ui] menus in zh-Hans: glyphs from /system/fonts/NotoSerifCJK-Regular.ttc
+10-31 00:00:21.193 I/BOTWRecompAndroid(26280): [launcher] loose game files trimmed to what the runtime opens by path
+10-31 00:00:21.255 I/BOTWRecompAndroid(26280): [vk] transient ring: memory type 0 (device-local host-visible )
+10-31 00:00:28.466 I/BOTWRecompAndroid(26280): [gamelib] /data/data/com.botwrecomp.android/files/v182/botwgame.so (122961 + 40461 functions)
+10-31 00:00:28.513 I/BOTWRecompAndroid(26280): [loader] main build de0b6ac4...: game version 182
+10-31 00:00:28.513 I/BOTWRecompAndroid(26280): loaded main  at 100000000 size 1d38000 syms 488
+10-31 00:00:28.540 I/BOTWRecompAndroid(26280): loaded sdk   at 104000000 size c54000 syms 23039
+10-31 00:00:28.622 I/BOTWRecompAndroid(26280): relocated main  (222402 packed relative, 48 imports bound to host stubs)
+10-31 00:00:28.622 I/BOTWRecompAndroid(26280): relocated sdk   (15007 packed relative, 0 imports bound to host stubs)
+10-31 00:00:28.626 I/BOTWRecompAndroid(26280): main thread: prio 44, stack 0x100000
+10-31 00:00:28.626 I/BOTWRecompAndroid(26280): nn::init::Start at 104110dd0 (init, init, fini)
+10-31 00:00:28.631 I/BOTWRecompAndroid(26280): [kernel] GetInfo used memory -> 0x4000000 (heap 0)
+10-31 00:00:28.631 I/BOTWRecompAndroid(26280): [kernel] GetInfo total memory -> 0xcd500000
+10-31 00:00:28.631 I/BOTWRecompAndroid(26280): init sdk (DT_INIT 104000400, 83 init_array entries)
+10-31 00:00:28.634 I/BOTWRecompAndroid(26280): [motion] accelerometer: icm456xy acc
+10-31 00:00:28.642 I/BOTWRecompAndroid(26280): [motion] gyroscope: icm456xy gyro
+10-31 00:00:28.644 I/BOTWRecompAndroid(26280): [sm] GetService lm
+10-31 00:00:28.644 I/BOTWRecompAndroid(26280): [ipc] control 3 on lm (handle 103)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 0 on lm (handle 103)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [sm] GetService apm
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [sm] GetService appletOE
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 3 on appletOE (handle 105)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 0 on appletOE (handle 105)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [am] ICommonStateGetter cmd 900 (unhandled, ok)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [am] ISelfController cmd 91 (unhandled, ok)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=104b8e000 stack=331c15fe0 prio=28 core=3 -> 10a (by 101)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [am] IWindowController cmd 10 (unhandled, ok)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [am] ISelfController cmd 13 (unhandled, ok)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [am] ISelfController cmd 16 (unhandled, ok)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [sm] GetService aoc:u
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [sm] GetService ectx:aw
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] no HLE implementation for service 'ectx:aw', using logging stub
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 3 on ectx:aw (handle 10c)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 0 on ectx:aw (handle 10c)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [sm] GetService pctl
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 3 on pctl (handle 10d)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 0 on pctl (handle 10d)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [sm] GetService pctl:s
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 3 on pctl:s (handle 10e)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 0 on pctl:s (handle 10e)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] close session pctl:s (handle 10e)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [sm] GetService pctl:a
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 3 on pctl:a (handle 10e)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 0 on pctl:a (handle 10e)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] close session pctl:a (handle 10e)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [sm] GetService pctl:r
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 3 on pctl:r (handle 10e)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] control 0 on pctl:r (handle 10e)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [ipc] close session pctl:r (handle 10e)
+10-31 00:00:28.645 I/BOTWRecompAndroid(26280): [pctl] IParentalControlService cmd 1 (ok)
+10-31 00:00:28.646 I/BOTWRecompAndroid(26280): [sm] GetService time:u
+10-31 00:00:28.646 I/BOTWRecompAndroid(26280): [ipc] control 3 on time:u (handle 10e)
+10-31 00:00:28.646 I/BOTWRecompAndroid(26280): [ipc] control 0 on time:u (handle 10e)
+10-31 00:00:28.646 I/BOTWRecompAndroid(26280): [time] shared memory mapped at 3010af000
+10-31 00:00:28.646 I/BOTWRecompAndroid(26280): [kernel] SetHeapSize 3120 MB
+10-31 00:00:28.647 I/BOTWRecompAndroid(26280): init main (DT_INIT 10000e730, 1040 init_array entries)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [lm] cmd 0, in_buf b=0x778fe80718 addr=104be05f8 size=188 (nx=1, na=1)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [lm] D:/home/Cafe/U-King/trunk/Game/Lib/sead/engine/library/modules/src/basis/nin/seadRawPrintNin.cpp | PrintStringImpl |  | MainThread | 0000002e
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): 
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [am] ICommonStateGetter cmd 66 (unhandled, ok)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [am] ISelfController cmd 14 (unhandled, ok)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [am] ISelfController cmd 11 (unhandled, ok)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [am] ISelfController cmd 12 (unhandled, ok)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [am] ISelfController cmd 13 (unhandled, ok)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [am] ISelfController cmd 16 (unhandled, ok)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [sm] GetService fsp-srv
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [ipc] control 3 on fsp-srv (handle 111)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [ipc] control 0 on fsp-srv (handle 111)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [ipc] control 2 on fsp-srv (handle 111)
+10-31 00:00:28.701 I/BOTWRecompAndroid(26280): [ipc] control 2 on fsp-srv (handle 112)
+10-31 00:00:28.717 I/BOTWRecompAndroid(26280): [fs] romfs index: 41056 files
+10-31 00:00:28.718 I/BOTWRecompAndroid(26280): [fs] romfs reads: 1 (0 KB)
+10-31 00:00:28.718 I/BOTWRecompAndroid(26280): [fs] romfs reads: 2 (0 KB)
+10-31 00:00:28.718 I/BOTWRecompAndroid(26280): [fs] romfs reads: 4 (36 KB)
+10-31 00:00:28.724 I/BOTWRecompAndroid(26280): [vk] Mali-G1-Ultra MC12, swapchain 2354x1080, 6 images
+10-31 00:00:28.724 I/BOTWRecompAndroid(26280): [nvn] device initialized
+10-31 00:00:28.724 I/BOTWRecompAndroid(26280): [nvn] window origin mode 1
+10-31 00:00:28.724 I/BOTWRecompAndroid(26280): [nvn] sampler pool 0xb4000077a011f360: memory 34328b000, 4096 entries of 72 bytes (lr 0)
+10-31 00:00:28.724 I/BOTWRecompAndroid(26280): [nvn] texture pool 0xb4000077a011f380: memory 3432ab000, 33068 entries of 32 bytes (lr 0)
+10-31 00:00:28.724 I/BOTWRecompAndroid(26280): [nvn] window with 2 textures
+10-31 00:00:28.724 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3446ca020 stack=307b6ffe0 prio=30 core=-2 -> 118 (by 101)
+10-31 00:00:28.724 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3446dc020 stack=30be18fe0 prio=48 core=-2 -> 119 (by 101)
+10-31 00:00:28.724 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3446e9020 stack=317e6efe0 prio=43 core=-2 -> 11a (by 119)
+10-31 00:00:28.725 I/BOTWRecompAndroid(26280): [sm] GetService hid
+10-31 00:00:28.725 I/BOTWRecompAndroid(26280): [ipc] control 3 on hid (handle 11b)
+10-31 00:00:28.734 I/BOTWRecompAndroid(26280): [input] GetNpadStyleSet id 0
+10-31 00:00:28.734 I/BOTWRecompAndroid(26280): [input] GetNpadState id 0 lr 100d9e4ac
+10-31 00:00:28.734 I/BOTWRecompAndroid(26280): [vk] async: command lists translated on a render thread (1 frame ahead)
+10-31 00:00:28.734 I/BOTWRecompAndroid(26280): [motion] sensor handles: player 0 style 0x1 -> 1
+10-31 00:00:28.734 I/BOTWRecompAndroid(26280): [motion] sensor 0x3 started
+10-31 00:00:28.734 I/BOTWRecompAndroid(26280): [input] GetNpadStyleSet id 0x1
+10-31 00:00:28.734 I/BOTWRecompAndroid(26280): [input] GetNpadStyleSet id 0x2
+10-31 00:00:28.734 I/BOTWRecompAndroid(26280): [input] GetNpadStyleSet id 0x3
+10-31 00:00:28.736 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3446ec020 stack=301b9dfe0 prio=44 core=-2 -> 11e (by 101)
+10-31 00:00:28.736 I/BOTWRecompAndroid(26280): [pace] the game sets its present interval to 2 (lr 101012a34, x19 342282ee8 [+0x240] 8589934594)
+10-31 00:00:28.738 I/BOTWRecompAndroid(26280): [am] GetDesiredLanguage -> zh-Hans
+10-31 00:00:28.738 I/BOTWRecompAndroid(26280): [am] GetDesiredLanguage -> zh-Hans
+10-31 00:00:28.739 I/BOTWRecompAndroid(26280): [sm] GetService acc:u0
+10-31 00:00:28.739 I/BOTWRecompAndroid(26280): [ipc] control 3 on acc:u0 (handle 11e)
+10-31 00:00:28.739 I/BOTWRecompAndroid(26280): [ipc] control 0 on acc:u0 (handle 11e)
+10-31 00:00:28.739 I/BOTWRecompAndroid(26280): [acc] acc:u0 cmd 160 (ok)
+10-31 00:00:28.741 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=347c2f020 stack=30fd1cfe0 prio=44 core=-2 -> 11f (by 101)
+10-31 00:00:28.742 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=347d30020 stack=3268aafe0 prio=44 core=-2 -> 120 (by 101)
+10-31 00:00:28.742 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=347e31020 stack=31162dfe0 prio=44 core=-2 -> 121 (by 101)
+10-31 00:00:28.742 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=34e1ca020 stack=3183ccfe0 prio=45 core=-2 -> 122 (by 101)
+10-31 00:00:28.744 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=34e1cc020 stack=32180ffe0 prio=47 core=-2 -> 123 (by 101)
+10-31 00:00:28.750 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3a9189020 stack=3302b6fe0 prio=47 core=-2 -> 124 (by 101)
+10-31 00:00:28.750 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3a919e020 stack=32f81bfe0 prio=48 core=-2 -> 125 (by 101)
+10-31 00:00:28.750 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3a91b3020 stack=31e02afe0 prio=48 core=-2 -> 126 (by 101)
+10-31 00:00:28.750 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3a91be020 stack=330a8efe0 prio=48 core=-2 -> 127 (by 101)
+10-31 00:00:28.751 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3ca452020 stack=333ca8fe0 prio=48 core=-2 -> 128 (by 101)
+10-31 00:00:28.756 I/BOTWRecompAndroid(26280): [fs] romfs reads: 8 (2566 KB)
+10-31 00:00:28.761 I/BOTWRecompAndroid(26280): [sm] GetService pl:u
+10-31 00:00:28.761 I/BOTWRecompAndroid(26280): [ipc] no HLE implementation for service 'pl:u', using logging stub
+10-31 00:00:28.761 I/BOTWRecompAndroid(26280): [ipc] STUB pl:u cmd 0 (in 4 bytes, x0 a0 b0 c0) -> ok
+10-31 00:00:28.761 I/BOTWRecompAndroid(26280): [ipc] close session pl:u (handle 129)
+10-31 00:00:28.762 I/BOTWRecompAndroid(26280): [aoc] ListAddOnContent: 0 of the DLC's packs
+10-31 00:00:28.776 I/BOTWRecompAndroid(26280): [fs] romfs reads: 16 (5821 KB)
+10-31 00:00:28.778 I/BOTWRecompAndroid(26280): [input] GetNpadState id 0 lr 100d9e4ac
+10-31 00:00:28.788 I/BOTWRecompAndroid(26280): [input] GetNpadState id 0 lr 100d9e4ac
+10-31 00:00:28.799 I/BOTWRecompAndroid(26280): [input] GetNpadState id 0 lr 100d9e4ac
+10-31 00:00:28.805 I/BOTWRecompAndroid(26280): [input] GetNpadState id 0 lr 100d9e4ac
+10-31 00:00:28.816 I/BOTWRecompAndroid(26280): [input] GetNpadState id 0 lr 100d9e4ac
+10-31 00:00:28.835 I/BOTWRecompAndroid(26280): [fs] romfs reads: 32 (13207 KB)
+10-31 00:00:30.223 I/BOTWRecompAndroid(26280): [sm] GetService audren:u
+10-31 00:00:30.223 I/BOTWRecompAndroid(26280): [audren] GetWorkBufferSize -> 0xcb000
+10-31 00:00:30.223 I/BOTWRecompAndroid(26280): [audren] GetWorkBufferSize -> 0xcb000
+10-31 00:00:30.223 I/BOTWRecompAndroid(26280): [audren] GetWorkBufferSize -> 0xcb000
+10-31 00:00:30.225 I/BOTWRecompAndroid(26280): Low latency audio enabled
+10-31 00:00:30.367 I/BOTWRecompAndroid(26280): [audren] renderer 48000 Hz, 240 samples/frame, 96 voices, 2 mixes, 30 mix buffers, 0 splitters (0 destinations), 14 effects
+10-31 00:00:30.367 I/BOTWRecompAndroid(26280): [audren] device 48000 Hz, 960 frames/period; queue target 2160 samples
+10-31 00:00:30.368 I/BOTWRecompAndroid(26280): [audren] mix 0 used 1 vol 1.000 bufs 6 dest 2147483647 splitter -1:
+10-31 00:00:30.368 I/BOTWRecompAndroid(26280): [audren] mix 1 used 1 vol 1.000 bufs 24 dest 0 splitter -1: 0>0=1.000 1>1=1.000 2>2=1.000 3>3=1.000 4>4=1.000 5>5=1.000 6>0=1.000 7>1=1.000 8>2=1.000 9>3=1.000 10>4=1.000 11>5=1.000 12>0=1.000 13>1=1.000 14>2=1.000 15>3=1.000 16>4=1.000 17>5=1.000 18>0=1.000 19>1=1.000 20>2=1.000 21>3=1.000 22>4=1.000 23>5=1.000
+10-31 00:00:30.368 I/BOTWRecompAndroid(26280): [audren] revision REV?, update in: 3f564552 10 31c0 9300 2a00 a80 1280 140 10 0 0 0 0 0 0 10d60
+10-31 00:00:30.368 I/BOTWRecompAndroid(26280): [audren] update out: 3f564552 b0 18e0 600 0 7e0 0 20 10 0 10 0 0 0 0 27f0 (out buffer 10224 bytes)
+10-31 00:00:30.368 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=101c59230 stack=3064c3fe0 prio=31 core=1 -> 12a (by 101)
+10-31 00:00:30.368 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=101c57a00 stack=312552fe0 prio=32 core=1 -> 12e (by 101)
+10-31 00:00:30.479 I/BOTWRecompAndroid(26280): [ipc] control 3 on IAudioDevice (handle 12f)
+10-31 00:00:30.479 I/BOTWRecompAndroid(26280): [ipc] close session IAudioDevice (handle 12f)
+10-31 00:00:30.479 I/BOTWRecompAndroid(26280): [audren] IAudioRenderer cmd 12 (ok)
+10-31 00:00:30.479 I/BOTWRecompAndroid(26280): [ipc] control 3 on IAudioDevice (handle 12f)
+10-31 00:00:30.479 I/BOTWRecompAndroid(26280): [ipc] close session IAudioDevice (handle 12f)
+10-31 00:00:30.479 I/BOTWRecompAndroid(26280): [ipc] control 3 on IAudioDevice (handle 12f)
+10-31 00:00:30.479 I/BOTWRecompAndroid(26280): [ipc] close session IAudioDevice (handle 12f)
+10-31 00:00:30.479 I/BOTWRecompAndroid(26280): [ipc] control 3 on IAudioDevice (handle 12f)
+10-31 00:00:30.479 I/BOTWRecompAndroid(26280): [ipc] close session IAudioDevice (handle 12f)
+10-31 00:00:30.490 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3ddd38000 stack=339494fe0 prio=46 core=-2 -> 12f (by 101)
+10-31 00:00:30.553 I/BOTWRecompAndroid(26280): [ipc] close session IAudioDevice (handle 130)
+10-31 00:00:30.553 I/BOTWRecompAndroid(26280): [ipc] close session IAudioDevice (handle 130)
+10-31 00:00:30.600 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3de28e000 stack=3127b5fe0 prio=36 core=-2 -> 130 (by 101)
+10-31 00:00:30.892 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3dfaff020 stack=3222d2fe0 prio=47 core=-2 -> 133 (by 101)
+10-31 00:00:30.894 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3dfb8e8f8 stack=311ef4fe0 prio=44 core=-2 -> 134 (by 101)
+10-31 00:00:30.894 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3dfb8eb20 stack=3145a8fe0 prio=44 core=-2 -> 135 (by 101)
+10-31 00:00:30.894 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3dfb8ed48 stack=334adcfe0 prio=44 core=-2 -> 136 (by 101)
+10-31 00:00:30.895 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3dfb90bf8 stack=32fb5ffe0 prio=44 core=-2 -> 137 (by 101)
+10-31 00:00:30.896 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3dfb90e20 stack=309a30fe0 prio=44 core=-2 -> 138 (by 101)
+10-31 00:00:30.896 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3dfb91048 stack=31c2eefe0 prio=44 core=-2 -> 139 (by 101)
+10-31 00:00:30.899 I/BOTWRecompAndroid(26280): [sm] GetService nfp:user
+10-31 00:00:30.899 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3dfc5e000 stack=322239fe0 prio=48 core=-2 -> 13b (by 101)
+10-31 00:00:30.901 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3dfde8000 stack=30f5a8fe0 prio=48 core=-2 -> 13c (by 101)
+10-31 00:00:30.901 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3dff1a000 stack=33284ffe0 prio=48 core=-2 -> 13d (by 101)
+10-31 00:00:30.902 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e004c000 stack=30435bfe0 prio=48 core=-2 -> 13e (by 101)
+10-31 00:00:30.903 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e016a020 stack=308301fe0 prio=46 core=-2 -> 13f (by 101)
+10-31 00:00:30.904 I/BOTWRecompAndroid(26280): [ipc] control 3 on nfp:user (handle 13a)
+10-31 00:00:30.904 I/BOTWRecompAndroid(26280): [ipc] control 0 on nfp:user (handle 13a)
+10-31 00:00:30.904 I/BOTWRecompAndroid(26280): [ipc] control 2 on nfp:user (handle 13a)
+10-31 00:00:30.904 I/BOTWRecompAndroid(26280): [ipc] control 2 on nfp:user (handle 140)
+10-31 00:00:30.904 I/BOTWRecompAndroid(26280): [ipc] control 2 on nfp:user (handle 141)
+10-31 00:00:30.907 I/BOTWRecompAndroid(26280): [fs] mounted host directory save/save_0
+10-31 00:00:31.264 I/BOTWRecompAndroid(26280): [pl] system font /data/data/com.botwrecomp.android/files/res/DejaVuSans.ttf (757076 bytes)
+10-31 00:00:31.281 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e2759020 stack=32c1e2fe0 prio=45 core=-2 -> 143 (by 101)
+10-31 00:00:31.504 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e709e020 stack=319684fe0 prio=45 core=-2 -> 144 (by 101)
+10-31 00:00:31.504 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e70c0020 stack=317927fe0 prio=45 core=-2 -> 145 (by 101)
+10-31 00:00:31.508 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e7283020 stack=30e271fe0 prio=48 core=-2 -> 146 (by 101)
+10-31 00:00:31.508 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e7384020 stack=32763afe0 prio=48 core=-2 -> 147 (by 101)
+10-31 00:00:31.508 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e7485020 stack=30bbeafe0 prio=48 core=-2 -> 148 (by 101)
+10-31 00:00:31.509 I/BOTWRecompAndroid(26280): [am] ICommonStateGetter cmd 66 (unhandled, ok)
+10-31 00:00:31.520 I/BOTWRecompAndroid(26280): [fs] IFileSystem cmd 7 save/save_0/exhibition: result 0x202
+10-31 00:00:31.530 I/BOTWRecompAndroid(26280): [kernel] GetInfo used memory -> 0xc7000000 (heap 0xc3000000)
+10-31 00:00:31.530 I/BOTWRecompAndroid(26280): [kernel] GetInfo total memory -> 0xcd500000
+10-31 00:00:31.541 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e75c8020 stack=31548ffe0 prio=45 core=-2 -> 146 (by 101)
+10-31 00:00:31.545 I/BOTWRecompAndroid(26280): [time] StandardUserSystemClock::GetCurrentTime (host clock)
+10-31 00:00:31.552 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e9a09020 stack=31cb34fe0 prio=48 core=-2 -> 149 (by 101)
+10-31 00:00:31.623 I/BOTWRecompAndroid(26280): [fs] IFileSystem cmd 8 save/save_0/6/caption.sav: result 0x202
+10-31 00:00:31.628 I/BOTWRecompAndroid(26280): [fs] IFileSystem cmd 8 save/save_0/7/caption.sav: result 0x202
+10-31 00:00:31.780 I/BOTWRecompAndroid(26280): [am] ICommonStateGetter cmd 66 (unhandled, ok)
+10-31 00:00:31.780 I/BOTWRecompAndroid(26280): [pace] presenting thread t82
+10-31 00:00:31.780 I/BOTWRecompAndroid(26280): [pace] settings changed: fresh fixed pacing history
+10-31 00:00:31.780 I/BOTWRecompAndroid(26280): [nvn] ReportCounter type 16
+10-31 00:00:31.780 I/BOTWRecompAndroid(26280): [nvn] ReportCounter type 0
+10-31 00:00:31.785 I/BOTWRecompAndroid(26280): [am] ICommonStateGetter cmd 54 (unhandled, ok)
+10-31 00:00:31.785 I/BOTWRecompAndroid(26280): [am] IApplicationFunctions cmd 67 (unhandled, ok)
+10-31 00:00:31.786 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e7283020 stack=33a5defe0 prio=48 core=-2 -> 14a (by 101)
+10-31 00:00:33.267 I/BOTWRecompAndroid(26280): [vk] guest heap imported for shader global memory: 3120 MB
+10-31 00:00:33.268 I/BOTWRecompAndroid(26280): [vk] no page write tracking (-1, page 4096)
+10-31 00:00:33.268 I/BOTWRecompAndroid(26280): [vk] vertex cache off: no page write tracking
+10-31 00:00:33.269 I/BOTWRecompAndroid(26280): [widescreen] frame 0: window 2354 x 1080
+10-31 00:00:33.274 I/BOTWRecompAndroid(26280): [am] ICommonStateGetter cmd 66 (unhandled, ok)
+10-31 00:00:33.461 I/BOTWRecompAndroid(26280): [touch] Sheikah skin loaded (1254x1254)
+10-31 00:00:33.466 I/BOTWRecompAndroid(26280): [android] performance hints with the GPU's time: yes
+10-31 00:00:33.510 I/BOTWRecompAndroid(26280): [android] performance hint single session (2 threads): on
+10-31 00:00:33.519 I/BOTWRecompAndroid(26280): [vk] no BC textures on this GPU: decoded on the CPU at upload
+10-31 00:00:33.555 I/BOTWRecompAndroid(26280): [audren] effect type 2 used (not implemented): slot 0 mix 1 enabled 1
+10-31 00:00:35.104 I/BOTWRecompAndroid(26280): [am] ICommonStateGetter cmd 66 (unhandled, ok)
+10-31 00:00:35.471 I/BOTWRecompAndroid(26280): [vk] command counts: 0:63 3:482 4:2804 5:479 6:479 7:348 9:348 10:482 11:482 12:447 13:10646 15:482 17:63 18:63 19:651 20:1175 21:1175 22:1175 23:479 28:348 33:182 35:52 38:482 48:615 51:501 54:315 60:348
+10-31 00:00:35.471 I/BOTWRecompAndroid(26280): [vk] t=14.5 frame 63 30.9 fps max 51ms level - (482 draws, 0 skipped, 502 passes, 0 dispatches, 1002 flushes, wait 61ms, compile 16 (waited 30ms), fbcopy 0 (read 0, breaks 0), upload 15.2MB, binds 469 pipe 482 sets, gpu mem 181MB, 17 textures)
+10-31 00:00:36.838 I/BOTWRecompAndroid(26280): [time] StandardUserSystemClock::GetCurrentTime (host clock)
+10-31 00:00:36.838 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e7283020 stack=30d35cfe0 prio=48 core=-2 -> 14a (by 101)
+10-31 00:00:37.504 I/BOTWRecompAndroid(26280): [vk] command counts: 0:124 3:3729 4:12937 5:2933 6:2933 7:1520 9:1520 10:3729 11:3729 12:3162 13:29556 14:286 15:3729 17:124 18:124 19:3324 20:4214 21:4214 22:4214 23:2933 28:1520 33:475 35:631 38:3729 48:4252 51:2820 54:620 60:1520
+10-31 00:00:37.505 I/BOTWRecompAndroid(26280): [vk] t=16.5 frame 124 30.0 fps max 34ms level - (3247 draws, 0 skipped, 3008 passes, 0 dispatches, 151 flushes, wait 10ms, compile 5 (waited 9ms), fbcopy 0 (read 0, breaks 0), upload 11.9MB, binds 2882 pipe 3247 sets, gpu mem 191MB, 39 textures)
+10-31 00:00:38.381 I/BOTWRecompAndroid(26280): [kernel] CreateThread entry=104148360 arg=3e80f9020 stack=33812afe0 prio=48 core=-2 -> 14b (by 146)
+10-31 00:00:39.713 I/BOTWRecompAndroid(26280): [vk] command counts: 0:169 3:7684 4:25712 5:6303 6:6303 7:2960 9:2960 10:7684 11:7684 12:6399 13:49301 14:871 15:7684 17:169 18:169 19:6159 20:7319 21:7319 22:7319 23:6303 28:2960 33:835 35:1486 38:7684 48:7942 51:5250 54:845 60:2960
+10-31 00:00:39.714 I/BOTWRecompAndroid(26280): [vk] t=18.7 frame 169 20.4 fps max 703ms level - (3955 draws, 0 skipped, 3510 passes, 0 dispatches, 137 flushes, wait 12ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 6.2MB, binds 3695 pipe 3955 sets, gpu mem 191MB, 41 textures)
+10-31 00:00:41.714 I/BOTWRecompAndroid(26280): [vk] t=20.7 frame 229 30.0 fps max 34ms level - (5400 draws, 0 skipped, 4680 passes, 0 dispatches, 167 flushes, wait 17ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 8.6MB, binds 5100 pipe 5400 sets, gpu mem 191MB, 41 textures)
+10-31 00:00:43.746 I/BOTWRecompAndroid(26280): [vk] t=22.8 frame 290 30.0 fps max 36ms level - (5490 draws, 0 skipped, 4758 passes, 0 dispatches, 178 flushes, wait 12ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 9.2MB, binds 5185 pipe 5490 sets, gpu mem 191MB, 41 textures)
+10-31 00:00:45.780 I/BOTWRecompAndroid(26280): [vk] t=24.8 frame 351 30.0 fps max 35ms level - (5493 draws, 0 skipped, 4758 passes, 0 dispatches, 164 flushes, wait 8ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 8.1MB, binds 5185 pipe 5493 sets, gpu mem 191MB, 41 textures)
+10-31 00:00:47.812 I/BOTWRecompAndroid(26280): [vk] t=26.8 frame 412 30.0 fps max 37ms level - (5517 draws, 0 skipped, 4758 passes, 0 dispatches, 169 flushes, wait 10ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 8.3MB, binds 5205 pipe 5517 sets, gpu mem 191MB, 41 textures)
+10-31 00:00:49.812 I/BOTWRecompAndroid(26280): [vk] t=28.8 frame 472 30.0 fps max 34ms level - (5555 draws, 0 skipped, 4680 passes, 0 dispatches, 172 flushes, wait 12ms, compile 3 (waited 1ms), fbcopy 0 (read 0, breaks 0), upload 22.5MB, binds 5188 pipe 5555 sets, gpu mem 206MB, 43 textures)
+10-31 00:00:51.072 I/BOTWRecompAndroid(26280): [vk] pipeline cache saved (17986 KB)
+10-31 00:00:51.816 I/BOTWRecompAndroid(26280): [vk] t=30.8 frame 532 30.0 fps max 35ms level - (5673 draws, 0 skipped, 4680 passes, 0 dispatches, 208 flushes, wait 26ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 9.6MB, binds 5226 pipe 5673 sets, gpu mem 206MB, 43 textures)
+10-31 00:00:53.849 I/BOTWRecompAndroid(26280): [vk] t=32.9 frame 593 30.0 fps max 36ms level - (5734 draws, 0 skipped, 4758 passes, 0 dispatches, 274 flushes, wait 49ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 11.2MB, binds 5246 pipe 5734 sets, gpu mem 206MB, 43 textures)
+10-31 00:00:55.850 I/BOTWRecompAndroid(26280): [vk] t=34.9 frame 653 30.0 fps max 36ms level - (5640 draws, 0 skipped, 4680 passes, 0 dispatches, 267 flushes, wait 48ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 11.1MB, binds 5160 pipe 5640 sets, gpu mem 206MB, 43 textures)
+10-31 00:00:57.848 I/BOTWRecompAndroid(26280): [vk] t=36.9 frame 713 30.0 fps max 35ms level - (5640 draws, 0 skipped, 4680 passes, 0 dispatches, 269 flushes, wait 48ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 11.1MB, binds 5160 pipe 5640 sets, gpu mem 206MB, 43 textures)
+10-31 00:00:58.628 I/BOTWRecompAndroid(26280): [kernel] core 0, last 30 s: 48948 takes, waited 2553 ms in all (longest 719.7 ms), held 21% of the time
+10-31 00:00:59.290 I/BOTWRecompAndroid(26280): [reboot] requested (start screen)
+10-31 00:00:59.316 I/BOTWRecompAndroid(26280): [reboot] 42 guest threads stopped in 25ms
+10-31 00:00:59.396 I/BOTWRecompAndroid(26280): [audio] reboot: 1 outputs closed
+10-31 00:00:59.460 I/BOTWRecompAndroid(26280): [vk] reboot: 43 textures released
+10-31 00:00:59.460 I/BOTWRecompAndroid(26280): [vi] vsync timer late by 53ms (host throttling?)
+10-31 00:00:59.989 I/BOTWRecompAndroid(26280): [reboot] game torn down in 697ms (20 reset hooks)
