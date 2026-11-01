@@ -1,0 +1,426 @@
+--------- beginning of main
+11-01 20:57:01.134 12070 12154 I BOTWRecompAndroid: [android] guest window 0x100000000-0x420000000
+11-01 20:57:01.135 12070 12154 I BOTWRecompAndroid: [android] the last run ended: signaled (reason 2, status 11) at 2026-11-01 19:42:50, pss 0 MB, rss 5085 MB: 
+11-01 20:57:01.684 12070 12154 I BOTWRecompAndroid: [paths] data: /storage/emulated/0/Android/data/com.botwrecomp.android/files/v182 (game version 182)
+11-01 20:57:01.685 12070 12154 I BOTWRecompAndroid: [settings] loaded botwrecompandroid.ini
+11-01 20:57:01.685 12070 12154 I BOTWRecompAndroid: [vk] Turnip LRZ on (settings)
+11-01 20:57:01.751 12070 12154 I BOTWRecompAndroid: [vk] gpu 0: Mali-G1-Ultra MC12 (api 1.3.305)
+11-01 20:57:01.751 12070 12154 I BOTWRecompAndroid: [vk] using Mali-G1-Ultra MC12 (Vulkan 1.3)
+11-01 20:57:01.752 12070 12154 I BOTWRecompAndroid: [vk] guest heap import left off (Mali: the game's text went missing, and memory ran out)
+11-01 20:57:01.752 12070 12154 I BOTWRecompAndroid: [vk-cap] gpu Mali-G1-Ultra MC12 vendor 0x13b5 device 0xe8800010 api 1.3.305 driver-id 9 name Mali-G1-Ultra MC12 info v1.r54p1-11eac0.a7f4c76.d66d1d5ec15c63b7cede1928bfff931d
+11-01 20:57:01.752 12070 12154 I BOTWRecompAndroid: [vk-cap] storage16 1 timeline 1 mirror-clamp 1 scalar 1 dynamic-rendering 1 sync2 1 demote 1 terminate 1 maintenance4 1 int64 1 int8 1 storage8 1 uniform-storage8 1 BC 0 ASTC 1 timestamps 1
+11-01 20:57:01.752 12070 12154 I BOTWRecompAndroid: [vk-cap] storage range 2048 MB, storage offset alignment 64, memory types 0:0x7 1:0xb 2:0x11 3:0x21
+11-01 20:57:01.754 12070 12154 I BOTWRecompAndroid: [vk] Vulkan 1.3 device, 3 extensions
+11-01 20:57:01.780 12070 12154 I BOTWRecompAndroid: [vk] swapchain: surface 2354x1080 transform 0x2, window 2354x1080, present mode 1, images 5-64
+11-01 20:57:01.789 12070 12154 I BOTWRecompAndroid: [vk] no heap import: shader global memory through CPU copies
+11-01 20:57:01.789 12070 12154 I BOTWRecompAndroid: [android] page write tracking on 0x340000000-0x410000000
+11-01 20:57:01.830 12070 12154 I BOTWRecompAndroid: [ui] menus in zh-Hans: /system/fonts/NotoSansCJK-Regular.ttc can't be used
+11-01 20:57:01.862 12070 12154 I BOTWRecompAndroid: [ui] menus in zh-Hans: glyphs from /system/fonts/NotoSerifCJK-Regular.ttc
+11-01 20:57:01.905 12070 12154 I BOTWRecompAndroid: [launcher] loose game files trimmed to what the runtime opens by path
+11-01 20:57:01.946 12070 12154 I BOTWRecompAndroid: [vk] async: command lists translated on a render thread (1 frame ahead)
+11-01 20:57:01.964 12070 12154 I BOTWRecompAndroid: [vk] transient ring: memory type 0 (device-local host-visible )
+11-01 20:57:09.455 12070 12154 I BOTWRecompAndroid: [gamelib] /data/data/com.botwrecomp.android/files/v182/botwgame.so (122961 + 40461 functions)
+11-01 20:57:09.470 12070 12154 I BOTWRecompAndroid: [loader] main build de0b6ac4...: game version 182
+11-01 20:57:09.503 12070 12154 I BOTWRecompAndroid: loaded main  at 100000000 size 1d38000 syms 488
+11-01 20:57:09.527 12070 12154 I BOTWRecompAndroid: loaded sdk   at 104000000 size c54000 syms 23039
+11-01 20:57:09.611 12070 12154 I BOTWRecompAndroid: relocated main  (222402 packed relative, 48 imports bound to host stubs)
+11-01 20:57:09.611 12070 12154 I BOTWRecompAndroid: relocated sdk   (15007 packed relative, 0 imports bound to host stubs)
+11-01 20:57:09.615 12070 12154 I BOTWRecompAndroid: main thread: prio 44, stack 0x100000
+11-01 20:57:09.615 12070 12154 I BOTWRecompAndroid: nn::init::Start at 104110dd0 (init, init, fini)
+11-01 20:57:09.622 12070 12154 I BOTWRecompAndroid: [kernel] GetInfo used memory -> 0x4000000 (heap 0)
+11-01 20:57:09.622 12070 12154 I BOTWRecompAndroid: [kernel] GetInfo total memory -> 0xcd500000
+11-01 20:57:09.622 12070 12154 I BOTWRecompAndroid: init sdk (DT_INIT 104000400, 83 init_array entries)
+11-01 20:57:09.626 12070 12154 I BOTWRecompAndroid: [motion] accelerometer: icm456xy acc
+11-01 20:57:09.637 12070 12154 I BOTWRecompAndroid: [motion] gyroscope: icm456xy gyro
+11-01 20:57:09.639 12070 12154 I BOTWRecompAndroid: [sm] GetService lm
+11-01 20:57:09.639 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on lm (handle 103)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on lm (handle 103)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [sm] GetService apm
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [sm] GetService appletOE
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on appletOE (handle 105)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on appletOE (handle 105)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [am] ICommonStateGetter cmd 900 (unhandled, ok)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [am] ISelfController cmd 91 (unhandled, ok)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=104b8e000 stack=3127abfe0 prio=28 core=3 -> 10a (by 101)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [am] IWindowController cmd 10 (unhandled, ok)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [am] ISelfController cmd 13 (unhandled, ok)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [am] ISelfController cmd 16 (unhandled, ok)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [sm] GetService aoc:u
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [sm] GetService ectx:aw
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] no HLE implementation for service 'ectx:aw', using logging stub
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on ectx:aw (handle 10c)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on ectx:aw (handle 10c)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [sm] GetService pctl
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on pctl (handle 10d)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on pctl (handle 10d)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [sm] GetService pctl:s
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on pctl:s (handle 10e)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on pctl:s (handle 10e)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] close session pctl:s (handle 10e)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [sm] GetService pctl:a
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on pctl:a (handle 10e)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on pctl:a (handle 10e)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] close session pctl:a (handle 10e)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [sm] GetService pctl:r
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on pctl:r (handle 10e)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on pctl:r (handle 10e)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [ipc] close session pctl:r (handle 10e)
+11-01 20:57:09.640 12070 12154 I BOTWRecompAndroid: [pctl] IParentalControlService cmd 1 (ok)
+11-01 20:57:09.641 12070 12154 I BOTWRecompAndroid: [sm] GetService time:u
+11-01 20:57:09.641 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on time:u (handle 10e)
+11-01 20:57:09.641 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on time:u (handle 10e)
+11-01 20:57:09.641 12070 12154 I BOTWRecompAndroid: [time] shared memory mapped at 1c92a9000
+11-01 20:57:09.641 12070 12154 I BOTWRecompAndroid: [kernel] SetHeapSize 3120 MB
+11-01 20:57:09.641 12070 12154 I BOTWRecompAndroid: init main (DT_INIT 10000e730, 1040 init_array entries)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [lm] cmd 0, in_buf b=0x778f2e8718 addr=104be05f8 size=188 (nx=1, na=1)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [lm] D:/home/Cafe/U-King/trunk/Game/Lib/sead/engine/library/modules/src/basis/nin/seadRawPrintNin.cpp | PrintStringImpl |  | MainThread | 0000002e
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: 
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [am] ICommonStateGetter cmd 66 (unhandled, ok)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [am] ISelfController cmd 14 (unhandled, ok)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [am] ISelfController cmd 11 (unhandled, ok)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [am] ISelfController cmd 12 (unhandled, ok)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [am] ISelfController cmd 13 (unhandled, ok)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [am] ISelfController cmd 16 (unhandled, ok)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [sm] GetService fsp-srv
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on fsp-srv (handle 111)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on fsp-srv (handle 111)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [ipc] control 2 on fsp-srv (handle 111)
+11-01 20:57:09.702 12070 12154 I BOTWRecompAndroid: [ipc] control 2 on fsp-srv (handle 112)
+11-01 20:57:09.720 12070 12154 I BOTWRecompAndroid: [fs] romfs index: 41056 files
+11-01 20:57:09.721 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 1 (0 KB)
+11-01 20:57:09.721 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 2 (0 KB)
+11-01 20:57:09.721 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 4 (36 KB)
+11-01 20:57:09.728 12070 12154 I BOTWRecompAndroid: [vk] Mali-G1-Ultra MC12, swapchain 2354x1080, 6 images
+11-01 20:57:09.728 12070 12154 I BOTWRecompAndroid: [nvn] device initialized
+11-01 20:57:09.729 12070 12154 I BOTWRecompAndroid: [nvn] window origin mode 1
+11-01 20:57:09.729 12070 12154 I BOTWRecompAndroid: [nvn] sampler pool 0xb4000078af3f77a0: memory 34328b000, 4096 entries of 72 bytes (lr 0)
+11-01 20:57:09.729 12070 12154 I BOTWRecompAndroid: [nvn] texture pool 0xb4000078af3f77c0: memory 3432ab000, 33068 entries of 32 bytes (lr 0)
+11-01 20:57:09.729 12070 12154 I BOTWRecompAndroid: [nvn] window with 2 textures
+11-01 20:57:09.729 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3446ca020 stack=33b49cfe0 prio=30 core=-2 -> 118 (by 101)
+11-01 20:57:09.730 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3446dc020 stack=3128c0fe0 prio=48 core=-2 -> 119 (by 101)
+11-01 20:57:09.731 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3446e9020 stack=31acd8fe0 prio=43 core=-2 -> 11a (by 119)
+11-01 20:57:09.732 12070 12154 I BOTWRecompAndroid: [sm] GetService hid
+11-01 20:57:09.732 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on hid (handle 11b)
+11-01 20:57:09.741 12070 12154 I BOTWRecompAndroid: [input] GetNpadStyleSet id 0
+11-01 20:57:09.741 12070 12154 I BOTWRecompAndroid: [input] GetNpadState id 0 lr 100d9e4ac
+11-01 20:57:09.741 12070 12154 I BOTWRecompAndroid: [motion] sensor handles: player 0 style 0x1 -> 1
+11-01 20:57:09.741 12070 12154 I BOTWRecompAndroid: [motion] sensor 0x3 started
+11-01 20:57:09.741 12070 12154 I BOTWRecompAndroid: [input] GetNpadStyleSet id 0x1
+11-01 20:57:09.741 12070 12154 I BOTWRecompAndroid: [input] GetNpadStyleSet id 0x2
+11-01 20:57:09.741 12070 12154 I BOTWRecompAndroid: [input] GetNpadStyleSet id 0x3
+11-01 20:57:09.741 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3446ec020 stack=3092bcfe0 prio=44 core=-2 -> 11e (by 101)
+11-01 20:57:09.741 12070 12154 I BOTWRecompAndroid: [pace] the game sets its present interval to 2 (lr 101012a34, x19 342282ee8 [+0x240] 8589934594)
+11-01 20:57:09.743 12070 12154 I BOTWRecompAndroid: [am] GetDesiredLanguage -> zh-Hans
+11-01 20:57:09.743 12070 12154 I BOTWRecompAndroid: [am] GetDesiredLanguage -> zh-Hans
+11-01 20:57:09.744 12070 12154 I BOTWRecompAndroid: [sm] GetService acc:u0
+11-01 20:57:09.744 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on acc:u0 (handle 11e)
+11-01 20:57:09.744 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on acc:u0 (handle 11e)
+11-01 20:57:09.744 12070 12154 I BOTWRecompAndroid: [acc] acc:u0 cmd 160 (ok)
+11-01 20:57:09.746 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=347c2f020 stack=328593fe0 prio=44 core=-2 -> 11f (by 101)
+11-01 20:57:09.747 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=347d30020 stack=3344b8fe0 prio=44 core=-2 -> 120 (by 101)
+11-01 20:57:09.747 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=347e31020 stack=3176fdfe0 prio=44 core=-2 -> 121 (by 101)
+11-01 20:57:09.747 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=34e1ca020 stack=31fd5dfe0 prio=45 core=-2 -> 122 (by 101)
+11-01 20:57:09.747 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=34e1cc020 stack=33a13bfe0 prio=47 core=-2 -> 123 (by 101)
+11-01 20:57:09.754 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3a9189020 stack=335fa3fe0 prio=47 core=-2 -> 124 (by 101)
+11-01 20:57:09.754 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3a919e020 stack=30f9d2fe0 prio=48 core=-2 -> 125 (by 101)
+11-01 20:57:09.754 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3a91b3020 stack=320163fe0 prio=48 core=-2 -> 126 (by 101)
+11-01 20:57:09.754 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3a91be020 stack=31a30afe0 prio=48 core=-2 -> 127 (by 101)
+11-01 20:57:09.756 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3ca452020 stack=337f0efe0 prio=48 core=-2 -> 128 (by 101)
+11-01 20:57:09.761 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 8 (2566 KB)
+11-01 20:57:09.766 12070 12154 I BOTWRecompAndroid: [sm] GetService pl:u
+11-01 20:57:09.766 12070 12154 I BOTWRecompAndroid: [ipc] no HLE implementation for service 'pl:u', using logging stub
+11-01 20:57:09.766 12070 12154 I BOTWRecompAndroid: [ipc] STUB pl:u cmd 0 (in 4 bytes, x0 a0 b0 c0) -> ok
+11-01 20:57:09.766 12070 12154 I BOTWRecompAndroid: [ipc] close session pl:u (handle 129)
+11-01 20:57:09.767 12070 12154 I BOTWRecompAndroid: [aoc] ListAddOnContent: 0 of the DLC's packs
+11-01 20:57:09.781 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 16 (5821 KB)
+11-01 20:57:09.783 12070 12154 I BOTWRecompAndroid: [input] GetNpadState id 0 lr 100d9e4ac
+11-01 20:57:09.789 12070 12154 I BOTWRecompAndroid: [input] GetNpadState id 0 lr 100d9e4ac
+11-01 20:57:09.803 12070 12154 I BOTWRecompAndroid: [input] GetNpadState id 0 lr 100d9e4ac
+11-01 20:57:09.811 12070 12154 I BOTWRecompAndroid: [input] GetNpadState id 0 lr 100d9e4ac
+11-01 20:57:09.819 12070 12154 I BOTWRecompAndroid: [input] GetNpadState id 0 lr 100d9e4ac
+11-01 20:57:09.839 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 32 (13207 KB)
+11-01 20:57:11.223 12070 12154 I BOTWRecompAndroid: [sm] GetService audren:u
+11-01 20:57:11.224 12070 12154 I BOTWRecompAndroid: [audren] GetWorkBufferSize -> 0xcb000
+11-01 20:57:11.224 12070 12154 I BOTWRecompAndroid: [audren] GetWorkBufferSize -> 0xcb000
+11-01 20:57:11.224 12070 12154 I BOTWRecompAndroid: [audren] GetWorkBufferSize -> 0xcb000
+11-01 20:57:11.226 12070 12154 I BOTWRecompAndroid: Low latency audio enabled
+11-01 20:57:11.363 12070 12154 I BOTWRecompAndroid: [audren] renderer 48000 Hz, 240 samples/frame, 96 voices, 2 mixes, 30 mix buffers, 0 splitters (0 destinations), 14 effects
+11-01 20:57:11.363 12070 12154 I BOTWRecompAndroid: [audren] device 48000 Hz, 960 frames/period; queue target 2160 samples
+11-01 20:57:11.364 12070 12154 I BOTWRecompAndroid: [audren] mix 0 used 1 vol 1.000 bufs 6 dest 2147483647 splitter -1:
+11-01 20:57:11.364 12070 12154 I BOTWRecompAndroid: [audren] mix 1 used 1 vol 1.000 bufs 24 dest 0 splitter -1: 0>0=1.000 1>1=1.000 2>2=1.000 3>3=1.000 4>4=1.000 5>5=1.000 6>0=1.000 7>1=1.000 8>2=1.000 9>3=1.000 10>4=1.000 11>5=1.000 12>0=1.000 13>1=1.000 14>2=1.000 15>3=1.000 16>4=1.000 17>5=1.000 18>0=1.000 19>1=1.000 20>2=1.000 21>3=1.000 22>4=1.000 23>5=1.000
+11-01 20:57:11.364 12070 12154 I BOTWRecompAndroid: [audren] revision REV?, update in: 3f564552 10 31c0 9300 2a00 a80 1280 140 10 0 0 0 0 0 0 10d60
+11-01 20:57:11.364 12070 12154 I BOTWRecompAndroid: [audren] update out: 3f564552 b0 18e0 600 0 7e0 0 20 10 0 10 0 0 0 0 27f0 (out buffer 10224 bytes)
+11-01 20:57:11.364 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=101c59230 stack=332bccfe0 prio=31 core=1 -> 12a (by 101)
+11-01 20:57:11.364 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=101c57a00 stack=318fc1fe0 prio=32 core=1 -> 12e (by 101)
+11-01 20:57:11.484 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on IAudioDevice (handle 12f)
+11-01 20:57:11.484 12070 12154 I BOTWRecompAndroid: [ipc] close session IAudioDevice (handle 12f)
+11-01 20:57:11.484 12070 12154 I BOTWRecompAndroid: [audren] IAudioRenderer cmd 12 (ok)
+11-01 20:57:11.484 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on IAudioDevice (handle 12f)
+11-01 20:57:11.484 12070 12154 I BOTWRecompAndroid: [ipc] close session IAudioDevice (handle 12f)
+11-01 20:57:11.484 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on IAudioDevice (handle 12f)
+11-01 20:57:11.484 12070 12154 I BOTWRecompAndroid: [ipc] close session IAudioDevice (handle 12f)
+11-01 20:57:11.484 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on IAudioDevice (handle 12f)
+11-01 20:57:11.484 12070 12154 I BOTWRecompAndroid: [ipc] close session IAudioDevice (handle 12f)
+11-01 20:57:11.491 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3ddd38000 stack=328118fe0 prio=46 core=-2 -> 12f (by 101)
+11-01 20:57:11.548 12070 12154 I BOTWRecompAndroid: [ipc] close session IAudioDevice (handle 130)
+11-01 20:57:11.548 12070 12154 I BOTWRecompAndroid: [ipc] close session IAudioDevice (handle 130)
+11-01 20:57:11.594 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3de28e000 stack=3186eefe0 prio=36 core=-2 -> 130 (by 101)
+11-01 20:57:11.865 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3dfaff020 stack=327aaafe0 prio=47 core=-2 -> 133 (by 101)
+11-01 20:57:11.867 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3dfb8e8f8 stack=329265fe0 prio=44 core=-2 -> 134 (by 101)
+11-01 20:57:11.867 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3dfb8eb20 stack=31fe6dfe0 prio=44 core=-2 -> 135 (by 101)
+11-01 20:57:11.867 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3dfb8ed48 stack=313d6cfe0 prio=44 core=-2 -> 136 (by 101)
+11-01 20:57:11.868 12070 12154 I BOTWRecompAndroid: [sm] GetService nfp:user
+11-01 20:57:11.868 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3dfb90bf8 stack=311b20fe0 prio=44 core=-2 -> 138 (by 101)
+11-01 20:57:11.868 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3dfb90e20 stack=338345fe0 prio=44 core=-2 -> 139 (by 101)
+11-01 20:57:11.868 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3dfb91048 stack=307f8cfe0 prio=44 core=-2 -> 13a (by 101)
+11-01 20:57:11.869 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on nfp:user (handle 137)
+11-01 20:57:11.869 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on nfp:user (handle 137)
+11-01 20:57:11.869 12070 12154 I BOTWRecompAndroid: [ipc] control 2 on nfp:user (handle 137)
+11-01 20:57:11.869 12070 12154 I BOTWRecompAndroid: [ipc] control 2 on nfp:user (handle 13b)
+11-01 20:57:11.869 12070 12154 I BOTWRecompAndroid: [ipc] control 2 on nfp:user (handle 13c)
+11-01 20:57:11.874 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3dfc5e000 stack=30b423fe0 prio=48 core=-2 -> 13e (by 101)
+11-01 20:57:11.875 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3dfde8000 stack=324b98fe0 prio=48 core=-2 -> 13f (by 101)
+11-01 20:57:11.876 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3dff1a000 stack=31c514fe0 prio=48 core=-2 -> 140 (by 101)
+11-01 20:57:11.877 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e004c000 stack=33f3c2fe0 prio=48 core=-2 -> 141 (by 101)
+11-01 20:57:11.877 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e016a020 stack=30aaadfe0 prio=46 core=-2 -> 142 (by 101)
+11-01 20:57:11.882 12070 12154 I BOTWRecompAndroid: [fs] mounted host directory save/save_0
+11-01 20:57:12.209 12070 12154 I BOTWRecompAndroid: [pl] system font /data/data/com.botwrecomp.android/files/res/DejaVuSans.ttf (757076 bytes)
+11-01 20:57:12.229 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e2759020 stack=324269fe0 prio=45 core=-2 -> 143 (by 101)
+11-01 20:57:12.456 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e709e020 stack=3308a2fe0 prio=45 core=-2 -> 144 (by 101)
+11-01 20:57:12.456 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e70c0020 stack=329373fe0 prio=45 core=-2 -> 145 (by 101)
+11-01 20:57:12.458 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e7283020 stack=30cfa3fe0 prio=48 core=-2 -> 146 (by 101)
+11-01 20:57:12.459 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e7384020 stack=31655ffe0 prio=48 core=-2 -> 147 (by 101)
+11-01 20:57:12.460 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e7485020 stack=328ee3fe0 prio=48 core=-2 -> 148 (by 101)
+11-01 20:57:12.462 12070 12154 I BOTWRecompAndroid: [am] ICommonStateGetter cmd 66 (unhandled, ok)
+11-01 20:57:12.471 12070 12154 I BOTWRecompAndroid: [fs] IFileSystem cmd 7 save/save_0/exhibition: result 0x202
+11-01 20:57:12.475 12070 12154 I BOTWRecompAndroid: [kernel] GetInfo used memory -> 0xc7000000 (heap 0xc3000000)
+11-01 20:57:12.475 12070 12154 I BOTWRecompAndroid: [kernel] GetInfo total memory -> 0xcd500000
+11-01 20:57:12.485 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e75c8020 stack=30727bfe0 prio=45 core=-2 -> 146 (by 101)
+11-01 20:57:12.488 12070 12154 I BOTWRecompAndroid: [time] StandardUserSystemClock::GetCurrentTime (host clock)
+11-01 20:57:12.496 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e9a09020 stack=3364c9fe0 prio=48 core=-2 -> 149 (by 101)
+11-01 20:57:12.576 12070 12154 I BOTWRecompAndroid: [fs] IFileSystem cmd 8 save/save_0/6/caption.sav: result 0x202
+11-01 20:57:12.584 12070 12154 I BOTWRecompAndroid: [fs] IFileSystem cmd 8 save/save_0/7/caption.sav: result 0x202
+11-01 20:57:12.744 12070 12154 I BOTWRecompAndroid: [am] ICommonStateGetter cmd 66 (unhandled, ok)
+11-01 20:57:12.749 12070 12154 I BOTWRecompAndroid: [pace] presenting thread t82
+11-01 20:57:12.749 12070 12154 I BOTWRecompAndroid: [am] ICommonStateGetter cmd 54 (unhandled, ok)
+11-01 20:57:12.749 12070 12154 I BOTWRecompAndroid: [am] IApplicationFunctions cmd 67 (unhandled, ok)
+11-01 20:57:12.749 12070 12154 I BOTWRecompAndroid: [pace] settings changed: fresh fixed pacing history
+11-01 20:57:12.749 12070 12154 I BOTWRecompAndroid: [nvn] ReportCounter type 16
+11-01 20:57:12.749 12070 12154 I BOTWRecompAndroid: [nvn] ReportCounter type 0
+11-01 20:57:12.751 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e7283020 stack=325352fe0 prio=48 core=-2 -> 14a (by 101)
+11-01 20:57:12.763 12070 12154 I BOTWRecompAndroid: [widescreen] frame 0: window 2354 x 1080
+11-01 20:57:12.767 12070 12154 I BOTWRecompAndroid: [am] ICommonStateGetter cmd 66 (unhandled, ok)
+11-01 20:57:12.864 12070 12154 I BOTWRecompAndroid: [touch] Sheikah skin loaded (1254x1254)
+11-01 20:57:12.865 12070 12154 I BOTWRecompAndroid: [android] performance hints with the GPU's time: yes
+11-01 20:57:12.897 12070 12154 I BOTWRecompAndroid: [android] performance hint single session (2 threads): on
+11-01 20:57:12.904 12070 12154 I BOTWRecompAndroid: [vk] no BC textures on this GPU: decoded on the CPU at upload
+11-01 20:57:13.042 12070 12154 I BOTWRecompAndroid: [audren] effect type 2 used (not implemented): slot 0 mix 1 enabled 1
+11-01 20:57:14.506 12070 12154 I BOTWRecompAndroid: [am] ICommonStateGetter cmd 66 (unhandled, ok)
+11-01 20:57:14.873 12070 12154 I BOTWRecompAndroid: [vk] command counts: 0:63 3:518 4:2876 5:499 6:499 7:356 9:356 10:518 11:518 12:474 13:10782 15:518 17:63 18:63 19:679 20:1203 21:1203 22:1203 23:499 28:356 33:184 35:56 38:518 48:661 51:527 54:315 60:356
+11-01 20:57:14.873 12070 12154 I BOTWRecompAndroid: [vk] t=13.2 frame 63 30.8 fps max 36ms level - (518 draws, 0 skipped, 533 passes, 0 dispatches, 1036 flushes, wait 61ms, compile 19 (waited 32ms), fbcopy 0 (read 0, breaks 0), upload 14.7MB, binds 501 pipe 518 sets, gpu mem 181MB, 17 textures)
+11-01 20:57:16.440 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 0 shader 0xb400007534658300 loads (1 such shaders)
+11-01 20:57:16.490 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 0 shader 0xb400007534659100 loads (2 such shaders)
+11-01 20:57:16.530 12070 12154 I BOTWRecompAndroid: [time] StandardUserSystemClock::GetCurrentTime (host clock)
+11-01 20:57:16.531 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e7283020 stack=309b23fe0 prio=48 core=-2 -> 14a (by 101)
+11-01 20:57:16.897 12070 12154 I BOTWRecompAndroid: [vk] command counts: 0:115 3:3163 4:10773 5:2468 6:2468 7:1260 9:1260 10:3163 11:3163 12:2584 13:26214 14:182 15:3163 17:115 18:115 19:2815 20:3651 21:3651 22:3651 23:2468 28:1260 33:410 35:479 38:3163 48:3595 51:2385 54:575 60:1260
+11-01 20:57:16.897 12070 12154 I BOTWRecompAndroid: [vk] t=15.2 frame 115 25.7 fps max 350ms level - (2645 draws, 0 skipped, 2351 passes, 0 dispatches, 116 flushes, wait 15ms, compile 5 (waited 342ms), fbcopy 0 (read 0, breaks 0), upload 12.5MB, binds 2310 pipe 2645 sets, gpu mem 190MB, 39 textures)
+11-01 20:57:18.155 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=3e80f9020 stack=30924efe0 prio=48 core=-2 -> 14b (by 146)
+11-01 20:57:19.449 12070 12154 I BOTWRecompAndroid: [vk] command counts: 0:167 3:7797 4:25599 5:6426 6:6426 7:2924 9:2924 10:7797 11:7797 12:6325 13:49158 14:858 15:7797 17:167 18:167 19:6091 20:7239 21:7239 22:7239 23:6426 28:2924 33:826 35:1467 38:7797 48:7859 51:5193 54:835 60:2924
+11-01 20:57:19.449 12070 12154 I BOTWRecompAndroid: [vk] t=17.8 frame 167 20.4 fps max 702ms level - (4634 draws, 0 skipped, 4056 passes, 0 dispatches, 132 flushes, wait 20ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 14.3MB, binds 4247 pipe 4634 sets, gpu mem 190MB, 41 textures)
+11-01 20:57:21.481 12070 12154 I BOTWRecompAndroid: [vk] t=19.8 frame 228 30.0 fps max 45ms level - (5612 draws, 0 skipped, 4758 passes, 0 dispatches, 127 flushes, wait 15ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 16.2MB, binds 5246 pipe 5612 sets, gpu mem 190MB, 41 textures)
+11-01 20:57:23.481 12070 12154 I BOTWRecompAndroid: [vk] t=21.8 frame 288 30.0 fps max 34ms level - (5520 draws, 0 skipped, 4680 passes, 0 dispatches, 122 flushes, wait 9ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 15.9MB, binds 5160 pipe 5520 sets, gpu mem 190MB, 41 textures)
+11-01 20:57:25.514 12070 12154 I BOTWRecompAndroid: [vk] t=23.8 frame 349 30.0 fps max 35ms level - (5612 draws, 0 skipped, 4758 passes, 0 dispatches, 125 flushes, wait 10ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 16.1MB, binds 5246 pipe 5612 sets, gpu mem 190MB, 41 textures)
+11-01 20:57:27.514 12070 12154 I BOTWRecompAndroid: [vk] t=25.8 frame 409 30.0 fps max 34ms level - (5562 draws, 0 skipped, 4680 passes, 0 dispatches, 123 flushes, wait 9ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 15.9MB, binds 5244 pipe 5562 sets, gpu mem 190MB, 41 textures)
+11-01 20:57:29.515 12070 12154 I BOTWRecompAndroid: [vk] t=27.8 frame 469 30.0 fps max 34ms level - (5518 draws, 0 skipped, 4680 passes, 0 dispatches, 126 flushes, wait 9ms, compile 2 (waited 1ms), fbcopy 0 (read 0, breaks 0), upload 31.7MB, binds 5175 pipe 5518 sets, gpu mem 207MB, 43 textures)
+11-01 20:57:31.515 12070 12154 I BOTWRecompAndroid: [vk] t=29.8 frame 529 30.0 fps max 34ms level - (5685 draws, 0 skipped, 4680 passes, 0 dispatches, 123 flushes, wait 10ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 16.1MB, binds 5242 pipe 5685 sets, gpu mem 207MB, 43 textures)
+11-01 20:57:31.723 12070 12154 I BOTWRecompAndroid: [vk] pipeline cache saved (21429 KB)
+11-01 20:57:33.522 12070 12154 I BOTWRecompAndroid: [vk] t=31.8 frame 589 30.0 fps max 35ms level - (5640 draws, 0 skipped, 4680 passes, 0 dispatches, 240 flushes, wait 44ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 19.6MB, binds 5160 pipe 5640 sets, gpu mem 207MB, 43 textures)
+11-01 20:57:35.554 12070 12154 I BOTWRecompAndroid: [vk] t=33.9 frame 650 30.0 fps max 36ms level - (5734 draws, 0 skipped, 4758 passes, 0 dispatches, 258 flushes, wait 47ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 20.4MB, binds 5246 pipe 5734 sets, gpu mem 207MB, 43 textures)
+11-01 20:57:37.052 12070 12154 I BOTWRecompAndroid: [motion] gyroscope at rest: bias 0.0006 -0.0002 0.0005 rad/s taken off
+11-01 20:57:37.584 12070 12154 I BOTWRecompAndroid: [vk] t=35.9 frame 711 30.0 fps max 35ms level - (5734 draws, 0 skipped, 4758 passes, 0 dispatches, 248 flushes, wait 48ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 20.2MB, binds 5246 pipe 5734 sets, gpu mem 207MB, 43 textures)
+11-01 20:57:39.583 12070 12154 I BOTWRecompAndroid: [vk] t=37.9 frame 771 30.0 fps max 35ms level - (5640 draws, 0 skipped, 4680 passes, 0 dispatches, 232 flushes, wait 40ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 19.3MB, binds 5160 pipe 5640 sets, gpu mem 207MB, 43 textures)
+11-01 20:57:39.616 12070 12154 I BOTWRecompAndroid: [kernel] core 0, last 30 s: 50347 takes, waited 3133 ms in all (longest 707.1 ms), held 21% of the time
+11-01 20:57:41.586 12070 12154 I BOTWRecompAndroid: [vk] t=39.9 frame 831 30.0 fps max 35ms level - (5640 draws, 0 skipped, 4680 passes, 0 dispatches, 222 flushes, wait 34ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 19.2MB, binds 5160 pipe 5640 sets, gpu mem 207MB, 43 textures)
+11-01 20:57:43.616 12070 12154 I BOTWRecompAndroid: [vk] t=41.9 frame 892 30.0 fps max 36ms level - (5739 draws, 0 skipped, 4758 passes, 0 dispatches, 233 flushes, wait 39ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 20.0MB, binds 5251 pipe 5739 sets, gpu mem 207MB, 43 textures)
+11-01 20:57:45.617 12070 12154 I BOTWRecompAndroid: [vk] t=43.9 frame 952 30.0 fps max 35ms level - (5647 draws, 0 skipped, 4680 passes, 0 dispatches, 219 flushes, wait 33ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 19.5MB, binds 5248 pipe 5647 sets, gpu mem 207MB, 43 textures)
+11-01 20:57:47.615 12070 12154 I BOTWRecompAndroid: [vk] t=45.9 frame 1012 30.0 fps max 35ms level - (5514 draws, 0 skipped, 4680 passes, 0 dispatches, 208 flushes, wait 31ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 21.1MB, binds 5201 pipe 5514 sets, gpu mem 211MB, 44 textures)
+11-01 20:57:49.615 12070 12154 I BOTWRecompAndroid: [vk] t=47.9 frame 1072 30.0 fps max 35ms level - (5552 draws, 0 skipped, 4680 passes, 0 dispatches, 194 flushes, wait 25ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 19.1MB, binds 5207 pipe 5552 sets, gpu mem 211MB, 44 textures)
+11-01 20:57:51.617 12070 12154 I BOTWRecompAndroid: [vk] t=49.9 frame 1132 30.0 fps max 34ms level - (5520 draws, 0 skipped, 4680 passes, 0 dispatches, 195 flushes, wait 23ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 18.5MB, binds 5160 pipe 5520 sets, gpu mem 211MB, 44 textures)
+11-01 20:57:53.617 12070 12154 I BOTWRecompAndroid: [vk] t=51.9 frame 1192 30.0 fps max 35ms level - (5520 draws, 0 skipped, 4680 passes, 0 dispatches, 192 flushes, wait 26ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 18.5MB, binds 5160 pipe 5520 sets, gpu mem 211MB, 44 textures)
+11-01 20:57:55.649 12070 12154 I BOTWRecompAndroid: [vk] t=54.0 frame 1253 30.0 fps max 35ms level - (5612 draws, 0 skipped, 4758 passes, 0 dispatches, 193 flushes, wait 25ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 18.8MB, binds 5246 pipe 5612 sets, gpu mem 211MB, 44 textures)
+11-01 20:57:57.649 12070 12154 I BOTWRecompAndroid: [vk] t=56.0 frame 1313 30.0 fps max 35ms level - (5520 draws, 0 skipped, 4680 passes, 0 dispatches, 190 flushes, wait 19ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 19.2MB, binds 5160 pipe 5520 sets, gpu mem 211MB, 44 textures)
+11-01 20:57:59.649 12070 12154 I BOTWRecompAndroid: [vk] t=58.0 frame 1373 30.0 fps max 35ms level - (5556 draws, 0 skipped, 4680 passes, 0 dispatches, 185 flushes, wait 20ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 18.9MB, binds 5222 pipe 5556 sets, gpu mem 211MB, 44 textures)
+11-01 20:57:59.866 12070 12154 I BOTWRecompAndroid: [vk] 3D target 8x8x8 level 0: a slice as 2D
+11-01 20:57:59.866 12070 12154 I BOTWRecompAndroid: [vk] 3D target 8x8x8 level 0: a slice as 2D
+11-01 20:57:59.866 12070 12154 I BOTWRecompAndroid: [vk] 3D target 8x8x8 level 0: a slice as 2D
+11-01 20:57:59.866 12070 12154 I BOTWRecompAndroid: [vk] 3D target 8x8x8 level 0: a slice as 2D
+11-01 20:58:00.058 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 0 shader 0xb4000074ab083b00 loads (3 such shaders)
+11-01 20:58:01.666 12070 12154 I BOTWRecompAndroid: [vk] t=60.0 frame 1431 28.8 fps max 87ms level - (13196 draws, 0 skipped, 4595 passes, 0 dispatches, 205 flushes, wait 25ms, compile 36 (waited 154ms), fbcopy 0 (read 0, breaks 0), upload 46.6MB, binds 7504 pipe 13196 sets, gpu mem 283MB, 72 textures)
+11-01 20:58:03.697 12070 12154 I BOTWRecompAndroid: [vk] t=62.0 frame 1492 30.0 fps max 35ms level - (15006 draws, 0 skipped, 4759 passes, 0 dispatches, 201 flushes, wait 19ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 42.1MB, binds 8175 pipe 15006 sets, gpu mem 283MB, 72 textures)
+11-01 20:58:05.731 12070 12154 I BOTWRecompAndroid: [vk] t=64.0 frame 1553 30.0 fps max 38ms level - (14931 draws, 0 skipped, 4759 passes, 0 dispatches, 219 flushes, wait 22ms, compile 2 (waited 32ms), fbcopy 0 (read 0, breaks 0), upload 49.9MB, binds 8127 pipe 14931 sets, gpu mem 283MB, 72 textures)
+11-01 20:58:07.731 12070 12154 I BOTWRecompAndroid: [vk] t=66.0 frame 1613 30.0 fps max 37ms level - (8833 draws, 0 skipped, 4694 passes, 0 dispatches, 190 flushes, wait 24ms, compile 2 (waited 31ms), fbcopy 0 (read 0, breaks 0), upload 24.6MB, binds 5948 pipe 8833 sets, gpu mem 283MB, 79 textures)
+11-01 20:58:08.629 12070 12154 I BOTWRecompAndroid: [am] ICommonStateGetter cmd 66 (unhandled, ok)
+11-01 20:58:09.477 12070 12154 I BOTWRecompAndroid: [sm] GetService prepo:u
+11-01 20:58:09.478 12070 12154 I BOTWRecompAndroid: [ipc] no HLE implementation for service 'prepo:u', using logging stub
+11-01 20:58:09.478 12070 12154 I BOTWRecompAndroid: [ipc] control 3 on prepo:u (handle 14c)
+11-01 20:58:09.478 12070 12154 I BOTWRecompAndroid: [ipc] control 0 on prepo:u (handle 14c)
+11-01 20:58:09.478 12070 12154 I BOTWRecompAndroid: [ipc] STUB prepo:u cmd 10105 (in 40 bytes, x1 a1 b0 c0) -> ok
+11-01 20:58:09.622 12070 12154 I BOTWRecompAndroid: [kernel] core 0, last 30 s: 35494 takes, waited 440 ms in all (longest 65.7 ms), held 19% of the time
+11-01 20:58:09.731 12070 12154 I BOTWRecompAndroid: [vk] t=68.0 frame 1673 30.0 fps max 35ms level - (5739 draws, 0 skipped, 3197 passes, 0 dispatches, 182 flushes, wait 29ms, compile 1 (waited 2ms), fbcopy 0 (read 0, breaks 0), upload 32.7MB, binds 4046 pipe 5739 sets, gpu mem 283MB, 82 textures)
+11-01 20:58:10.325 12070 12154 I BOTWRecompAndroid: [nvn] device info 57 -> 128
+11-01 20:58:10.628 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 64 (220391 KB)
+11-01 20:58:11.399 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 128 (230540 KB)
+11-01 20:58:11.747 12070 12154 I BOTWRecompAndroid: [vk] t=70.1 frame 1718 22.3 fps max 479ms level - (6631 draws, 0 skipped, 2050 passes, 0 dispatches, 187 flushes, wait 48ms, compile 65 (waited 112ms), fbcopy 0 (read 0, breaks 0), upload 584.3MB, binds 2643 pipe 6511 sets, gpu mem 1429MB, 274 textures)
+11-01 20:58:12.527 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 256 (247856 KB)
+11-01 20:58:13.751 12070 12154 I BOTWRecompAndroid: [vk] t=72.1 frame 1776 28.9 fps max 115ms level - (6084 draws, 0 skipped, 1873 passes, 0 dispatches, 200 flushes, wait 21ms, compile 10 (waited 38ms), fbcopy 0 (read 0, breaks 0), upload 33.1MB, binds 2732 pipe 5934 sets, gpu mem 1450MB, 517 textures)
+11-01 20:58:13.908 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 512 (260642 KB)
+11-01 20:58:14.087 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=4006ff020 stack=3051a2fe0 prio=48 core=-2 -> 14d (by 146)
+11-01 20:58:14.123 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=401504020 stack=339061fe0 prio=48 core=-2 -> 14e (by 146)
+11-01 20:58:14.273 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=40208f020 stack=3221c2fe0 prio=48 core=-2 -> 14f (by 146)
+11-01 20:58:14.275 12070 12154 I BOTWRecompAndroid: [kernel] CreateThread entry=104148360 arg=4020bf020 stack=301b50fe0 prio=49 core=-2 -> 150 (by 146)
+11-01 20:58:15.764 12070 12154 I BOTWRecompAndroid: [vk] t=74.1 frame 1834 28.8 fps max 113ms level - (3785 draws, 0 skipped, 2049 passes, 0 dispatches, 142 flushes, wait 13ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 10.6MB, binds 2906 pipe 3785 sets, gpu mem 1450MB, 517 textures)
+11-01 20:58:17.152 12070 12154 I BOTWRecompAndroid: [fs] romfs reads: 1024 (328132 KB)
+11-01 20:58:17.764 12070 12154 I BOTWRecompAndroid: [vk] t=76.1 frame 1894 30.0 fps max 37ms level - (3040 draws, 0 skipped, 1588 passes, 0 dispatches, 150 flushes, wait 14ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 10.7MB, binds 2440 pipe 3040 sets, gpu mem 1450MB, 517 textures)
+11-01 20:58:19.763 12070 12154 I BOTWRecompAndroid: [vk] t=78.1 frame 1954 30.0 fps max 34ms level - (3040 draws, 0 skipped, 1588 passes, 0 dispatches, 156 flushes, wait 16ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 10.7MB, binds 2440 pipe 3040 sets, gpu mem 1450MB, 517 textures)
+11-01 20:58:21.765 12070 12154 I BOTWRecompAndroid: [vk] t=80.1 frame 2014 30.0 fps max 38ms level - (3040 draws, 0 skipped, 1588 passes, 0 dispatches, 160 flushes, wait 18ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 10.7MB, binds 2440 pipe 3040 sets, gpu mem 1450MB, 517 textures)
+11-01 20:58:23.765 12070 12154 I BOTWRecompAndroid: [vk] t=82.1 frame 2074 30.0 fps max 39ms level - (3040 draws, 0 skipped, 1588 passes, 0 dispatches, 150 flushes, wait 17ms, compile 0 (waited 0ms), fbcopy 0 (read 0, breaks 0), upload 10.7MB, binds 2440 pipe 3040 sets, gpu mem 1450MB, 517 textures)
+11-01 20:58:25.059 12070 12154 I BOTWRecompAndroid: [am] ICommonStateGetter cmd 66 (unhandled, ok)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.171 12070 12154 I BOTWRecompAndroid: [vk] frame 2108: a draw into 1600x900 with depth skipped (shader still building)
+11-01 20:58:25.428 12070 12154 I BOTWRecompAndroid: [vk] targets a draw writes, sampled by it: copies (settings)
+11-01 20:58:27.461 12070 12154 I BOTWRecompAndroid: [vk] t=85.8 frame 2110 9.7 fps max 2041ms level - (3488 draws, 3417 skipped, 1416 passes, 0 dispatches, 168 flushes, wait 20ms, compile 449 (waited 2355ms), fbcopy 16 (read 154, breaks 0), upload 153.2MB, binds 1976 pipe 3341 sets, gpu mem 1392MB, 655 textures)
+11-01 20:58:27.559 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb4000078f9bc1800 STORES (4 such shaders)
+11-01 20:58:27.578 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb400007488eed500 STORES (5 such shaders)
+11-01 20:58:27.748 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb400007488eef100 STORES (6 such shaders)
+11-01 20:58:27.857 12070 12154 I BOTWRecompAndroid: [nvn] ReportCounter type 1
+11-01 20:58:27.873 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb400007488eedc00 STORES (7 such shaders)
+11-01 20:58:27.919 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb400007488932200 STORES (8 such shaders)
+11-01 20:58:27.919 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb400007488932900 STORES (9 such shaders)
+11-01 20:58:27.934 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb400007487c9a500 STORES (10 such shaders)
+11-01 20:58:29.492 12070 12154 I BOTWRecompAndroid: [vk] t=87.8 frame 2156 22.7 fps max 172ms level - (103853 draws, 1110 skipped, 7567 passes, 352 dispatches, 494 flushes, wait 239ms, compile 418 (waited 170ms), fbcopy 736 (read 6854, breaks 0), upload 975.1MB, binds 25907 pipe 90343 sets, gpu mem 1670MB, 926 textures)
+11-01 20:58:31.049 12070 12154 I BOTWRecompAndroid: [time] StandardUserSystemClock::GetCurrentTime (host clock)
+11-01 20:58:31.243 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb40000747d2c6400 STORES (11 such shaders)
+11-01 20:58:31.396 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb40000747b0f5600 STORES (12 such shaders)
+11-01 20:58:31.515 12070 12154 I BOTWRecompAndroid: [vk] t=89.8 frame 2218 30.6 fps max 78ms level - (149711 draws, 2472 skipped, 9085 passes, 509 dispatches, 439 flushes, wait 67ms, compile 175 (waited 82ms), fbcopy 992 (read 9472, breaks 0), upload 938.7MB, binds 33429 pipe 122454 sets, gpu mem 1685MB, 961 textures)
+11-01 20:58:31.766 12070 12154 I BOTWRecompAndroid: [vk] pipeline cache saved (21598 KB)
+11-01 20:58:33.500 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb40000747d2c3a00 STORES (13 such shaders)
+11-01 20:58:33.530 12070 12154 I BOTWRecompAndroid: [vk] t=91.8 frame 2241 11.4 fps max 1276ms level - (68039 draws, 251 skipped, 3532 passes, 233 dispatches, 166 flushes, wait 11ms, compile 32 (waited 1263ms), fbcopy 368 (read 3838, breaks 0), upload 355.1MB, binds 13165 pipe 50578 sets, gpu mem 1706MB, 1069 textures)
+11-01 20:58:33.542 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb400007478de3700 STORES (14 such shaders)
+11-01 20:58:34.539 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb4000074891c0300 STORES (15 such shaders)
+11-01 20:58:35.531 12070 12154 I BOTWRecompAndroid: [vk] t=93.8 frame 2302 30.4 fps max 34ms level - (185526 draws, 275 skipped, 11030 passes, 1110 dispatches, 414 flushes, wait 15ms, compile 5 (waited 1ms), fbcopy 976 (read 10126, breaks 0), upload 966.4MB, binds 38685 pipe 139106 sets, gpu mem 1738MB, 1086 textures)
+11-01 20:58:35.874 12070 12154 I BOTWRecompAndroid: [vk] gmem off: stage 5 shader 0xb40000747b0f5d00 STORES (16 such shaders)
+11-01 20:58:37.552 12070 12154 I BOTWRecompAndroid: [vk] t=95.9 frame 2361 29.2 fps max 43ms level - (178741 draws, 38 skipped, 10413 passes, 1209 dispatches, 496 flushes, wait 59ms, compile 1 (waited 0ms), fbcopy 944 (read 9794, breaks 0), upload 915.7MB, binds 37149 pipe 133936 sets, gpu mem 1738MB, 1086 textures)
+11-01 20:58:39.568 12070 12154 I BOTWRecompAndroid: [vk] t=97.9 frame 2417 27.8 fps max 42ms level - (169491 draws, 0 skipped, 9913 passes, 1079 dispatches, 545 flushes, wait 472ms, compile 0 (waited 0ms), fbcopy 896 (read 9296, breaks 0), upload 868.7MB, binds 35273 pipe 126909 sets, gpu mem 1738MB, 1086 textures)
+11-01 20:58:39.622 12070 12154 I BOTWRecompAndroid: [kernel] core 0, last 30 s: 39393 takes, waited 5386 ms in all (longest 1944.0 ms), held 42% of the time
+11-01 20:58:41.587 12070 12154 I BOTWRecompAndroid: [vk] t=99.9 frame 2476 29.2 fps max 43ms level - (178243 draws, 0 skipped, 10354 passes, 1085 dispatches, 485 flushes, wait 666ms, compile 0 (waited 0ms), fbcopy 944 (read 9794, breaks 0), upload 913.2MB, binds 37077 pipe 133331 sets, gpu mem 1738MB, 1086 textures)
+11-01 20:58:43.597 12070 12154 I BOTWRecompAndroid: [vk] t=101.9 frame 2536 29.9 fps max 39ms level - (181074 draws, 0 skipped, 10468 passes, 1101 dispatches, 462 flushes, wait 472ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 928.1MB, binds 37552 pipe 135457 sets, gpu mem 1738MB, 1086 textures)
+11-01 20:58:45.598 12070 12154 I BOTWRecompAndroid: [vk] t=103.9 frame 2596 30.0 fps max 41ms level - (181054 draws, 0 skipped, 10460 passes, 1102 dispatches, 472 flushes, wait 565ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 928.1MB, binds 37557 pipe 135486 sets, gpu mem 1737MB, 1077 textures)
+11-01 20:58:47.606 12070 12154 I BOTWRecompAndroid: [vk] t=105.9 frame 2655 29.4 fps max 41ms level - (178224 draws, 0 skipped, 10300 passes, 1083 dispatches, 418 flushes, wait 766ms, compile 0 (waited 0ms), fbcopy 944 (read 9794, breaks 0), upload 912.9MB, binds 36985 pipe 133448 sets, gpu mem 1737MB, 1077 textures)
+11-01 20:58:49.633 12070 12154 I BOTWRecompAndroid: [vk] t=107.9 frame 2716 30.1 fps max 41ms level - (183839 draws, 0 skipped, 10619 passes, 1121 dispatches, 453 flushes, wait 480ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 944.8MB, binds 38127 pipe 137568 sets, gpu mem 1737MB, 1077 textures)
+11-01 20:58:51.646 12070 12154 I BOTWRecompAndroid: [vk] t=110.0 frame 2776 29.8 fps max 41ms level - (180917 draws, 0 skipped, 10461 passes, 1102 dispatches, 443 flushes, wait 635ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 930.9MB, binds 37407 pipe 135429 sets, gpu mem 1737MB, 1077 textures)
+11-01 20:58:53.669 12070 12154 I BOTWRecompAndroid: [vk] t=112.0 frame 2836 29.7 fps max 42ms level - (180353 draws, 0 skipped, 10465 passes, 1102 dispatches, 431 flushes, wait 615ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 931.9MB, binds 36738 pipe 134875 sets, gpu mem 1737MB, 1077 textures)
+11-01 20:58:55.680 12070 12154 I BOTWRecompAndroid: [vk] t=114.0 frame 2897 30.3 fps max 40ms level - (183016 draws, 0 skipped, 10621 passes, 1120 dispatches, 447 flushes, wait 454ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 947.4MB, binds 37286 pipe 136825 sets, gpu mem 1737MB, 1077 textures)
+11-01 20:58:57.683 12070 12154 I BOTWRecompAndroid: [vk] t=116.0 frame 2956 29.5 fps max 41ms level - (177392 draws, 0 skipped, 10300 passes, 1082 dispatches, 425 flushes, wait 701ms, compile 0 (waited 0ms), fbcopy 944 (read 9794, breaks 0), upload 915.6MB, binds 36195 pipe 132677 sets, gpu mem 1737MB, 1077 textures)
+11-01 20:58:59.696 12070 12154 I BOTWRecompAndroid: [vk] t=118.0 frame 3016 29.8 fps max 43ms level - (180376 draws, 0 skipped, 10562 passes, 1232 dispatches, 433 flushes, wait 415ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 932.5MB, binds 36927 pipe 134881 sets, gpu mem 1737MB, 1077 textures)
+11-01 20:59:01.703 12070 12154 I BOTWRecompAndroid: [vk] t=120.0 frame 3076 29.9 fps max 43ms level - (179913 draws, 0 skipped, 10547 passes, 1189 dispatches, 412 flushes, wait 513ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 930.3MB, binds 36902 pipe 134384 sets, gpu mem 1695MB, 711 textures)
+11-01 20:59:01.755 12070 12154 I BOTWRecompAndroid: [vk] pipeline cache saved (21983 KB)
+11-01 20:59:03.717 12070 12154 I BOTWRecompAndroid: [vk] t=122.0 frame 3137 30.3 fps max 41ms level - (182506 draws, 0 skipped, 10639 passes, 1139 dispatches, 423 flushes, wait 632ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 945.2MB, binds 37431 pipe 136470 sets, gpu mem 1695MB, 711 textures)
+11-01 20:59:05.745 12070 12154 I BOTWRecompAndroid: [vk] t=124.1 frame 3197 29.6 fps max 43ms level - (179582 draws, 0 skipped, 10461 passes, 1102 dispatches, 432 flushes, wait 574ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 930.8MB, binds 36844 pipe 134319 sets, gpu mem 1671MB, 703 textures)
+11-01 20:59:07.750 12070 12154 I BOTWRecompAndroid: [vk] t=126.1 frame 3258 30.4 fps max 35ms level - (182512 draws, 0 skipped, 10624 passes, 1120 dispatches, 449 flushes, wait 389ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 947.3MB, binds 37413 pipe 136492 sets, gpu mem 1671MB, 703 textures)
+11-01 20:59:09.623 12070 12154 I BOTWRecompAndroid: [kernel] core 0, last 30 s: 58066 takes, waited 1025 ms in all (longest 3.9 ms), held 44% of the time
+11-01 20:59:09.769 12070 12154 I BOTWRecompAndroid: [vk] t=128.1 frame 3318 29.7 fps max 40ms level - (179611 draws, 0 skipped, 10460 passes, 1101 dispatches, 476 flushes, wait 391ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 932.1MB, binds 36861 pipe 134342 sets, gpu mem 1671MB, 703 textures)
+11-01 20:59:11.789 12070 12154 I BOTWRecompAndroid: [vk] t=130.1 frame 3378 29.7 fps max 42ms level - (179453 draws, 0 skipped, 10460 passes, 1101 dispatches, 437 flushes, wait 593ms, compile 0 (waited 0ms), fbcopy 960 (read 9966, breaks 0), upload 931.6MB, binds 36668 pipe 134350 sets, gpu mem 1671MB, 703 textures)
+11-01 20:59:13.817 12070 12154 I BOTWRecompAndroid: [vk] t=132.1 frame 3439 30.1 fps max 39ms level - (182265 draws, 0 skipped, 10624 passes, 1121 dispatches, 416 flushes, wait 420ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 945.3MB, binds 37238 pipe 136543 sets, gpu mem 1671MB, 703 textures)
+11-01 20:59:15.821 12070 12154 I BOTWRecompAndroid: [vk] t=134.1 frame 3499 29.9 fps max 40ms level - (179236 draws, 176 skipped, 10555 passes, 1227 dispatches, 413 flushes, wait 550ms, compile 4 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 931.3MB, binds 36685 pipe 134248 sets, gpu mem 1671MB, 700 textures)
+11-01 20:59:17.838 12070 12154 I BOTWRecompAndroid: [vk] t=136.2 frame 3559 29.7 fps max 44ms level - (179272 draws, 0 skipped, 10552 passes, 1193 dispatches, 434 flushes, wait 565ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 931.3MB, binds 36681 pipe 134444 sets, gpu mem 1671MB, 700 textures)
+11-01 20:59:19.867 12070 12154 I BOTWRecompAndroid: [vk] t=138.2 frame 3620 30.1 fps max 40ms level - (182420 draws, 73 skipped, 10643 passes, 1142 dispatches, 437 flushes, wait 767ms, compile 16 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 946.6MB, binds 37305 pipe 136851 sets, gpu mem 1671MB, 704 textures)
+11-01 20:59:21.892 12070 12154 I BOTWRecompAndroid: [vk] t=140.2 frame 3681 30.1 fps max 42ms level - (182654 draws, 0 skipped, 10621 passes, 1121 dispatches, 459 flushes, wait 635ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 947.9MB, binds 37557 pipe 137257 sets, gpu mem 1671MB, 704 textures)
+11-01 20:59:23.923 12070 12154 I BOTWRecompAndroid: [vk] t=142.2 frame 3741 29.5 fps max 43ms level - (179558 draws, 0 skipped, 10467 passes, 1100 dispatches, 444 flushes, wait 696ms, compile 4 (waited 17ms), fbcopy 960 (read 9960, breaks 0), upload 933.0MB, binds 37061 pipe 135209 sets, gpu mem 1671MB, 705 textures)
+11-01 20:59:25.954 12070 12154 I BOTWRecompAndroid: [vk] t=144.3 frame 3802 30.0 fps max 41ms level - (182793 draws, 0 skipped, 10622 passes, 1119 dispatches, 462 flushes, wait 509ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 947.9MB, binds 37722 pipe 137642 sets, gpu mem 1671MB, 705 textures)
+11-01 20:59:27.977 12070 12154 I BOTWRecompAndroid: [vk] t=146.3 frame 3863 30.1 fps max 42ms level - (183030 draws, 43 skipped, 10621 passes, 1121 dispatches, 465 flushes, wait 539ms, compile 3 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 947.3MB, binds 37905 pipe 138108 sets, gpu mem 1671MB, 706 textures)
+11-01 20:59:29.999 12070 12154 I BOTWRecompAndroid: [vk] t=148.3 frame 3923 29.7 fps max 44ms level - (179572 draws, 0 skipped, 10462 passes, 1100 dispatches, 453 flushes, wait 606ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 930.8MB, binds 37289 pipe 135653 sets, gpu mem 1671MB, 706 textures)
+11-01 20:59:32.026 12070 12154 I BOTWRecompAndroid: [vk] t=150.3 frame 3984 30.1 fps max 38ms level - (182584 draws, 0 skipped, 10623 passes, 1119 dispatches, 464 flushes, wait 523ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 946.4MB, binds 37984 pipe 138103 sets, gpu mem 1671MB, 706 textures)
+11-01 20:59:34.030 12070 12154 I BOTWRecompAndroid: [vk] t=152.3 frame 4044 29.9 fps max 39ms level - (179083 draws, 0 skipped, 10560 passes, 1209 dispatches, 462 flushes, wait 597ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 933.9MB, binds 37424 pipe 135675 sets, gpu mem 1671MB, 706 textures)
+11-01 20:59:36.055 12070 12154 I BOTWRecompAndroid: [vk] t=154.4 frame 4104 29.6 fps max 44ms level - (179018 draws, 0 skipped, 10604 passes, 1265 dispatches, 470 flushes, wait 516ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 935.5MB, binds 37599 pipe 135822 sets, gpu mem 1671MB, 706 textures)
+11-01 20:59:38.065 12070 12154 I BOTWRecompAndroid: [vk] t=156.4 frame 4164 29.9 fps max 40ms level - (179073 draws, 0 skipped, 10585 passes, 1228 dispatches, 440 flushes, wait 484ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 935.3MB, binds 37811 pipe 136020 sets, gpu mem 1671MB, 707 textures)
+11-01 20:59:39.623 12070 12154 I BOTWRecompAndroid: [kernel] core 0, last 30 s: 58994 takes, waited 1049 ms in all (longest 5.4 ms), held 44% of the time
+11-01 20:59:40.085 12070 12154 I BOTWRecompAndroid: [vk] t=158.4 frame 4225 30.2 fps max 38ms level - (181900 draws, 0 skipped, 10790 passes, 1157 dispatches, 467 flushes, wait 359ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 949.4MB, binds 38437 pipe 138361 sets, gpu mem 1671MB, 708 textures)
+11-01 20:59:42.086 12070 12154 I BOTWRecompAndroid: [vk] t=160.4 frame 4285 30.0 fps max 40ms level - (179226 draws, 0 skipped, 10461 passes, 1100 dispatches, 439 flushes, wait 197ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 932.1MB, binds 37805 pipe 136457 sets, gpu mem 1671MB, 708 textures)
+11-01 20:59:44.119 12070 12154 I BOTWRecompAndroid: [vk] t=162.4 frame 4346 30.0 fps max 35ms level - (182040 draws, 0 skipped, 10625 passes, 1119 dispatches, 481 flushes, wait 489ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 946.4MB, binds 38602 pipe 138709 sets, gpu mem 1671MB, 709 textures)
+11-01 20:59:46.120 12070 12154 I BOTWRecompAndroid: [vk] t=164.4 frame 4406 30.0 fps max 39ms level - (179152 draws, 0 skipped, 10467 passes, 1102 dispatches, 489 flushes, wait 402ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 931.1MB, binds 38169 pipe 136673 sets, gpu mem 1671MB, 710 textures)
+11-01 20:59:48.141 12070 12154 I BOTWRecompAndroid: [vk] t=166.5 frame 4466 29.7 fps max 41ms level - (179165 draws, 0 skipped, 10464 passes, 1102 dispatches, 486 flushes, wait 577ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 932.6MB, binds 38180 pipe 136775 sets, gpu mem 1671MB, 711 textures)
+11-01 20:59:50.161 12070 12154 I BOTWRecompAndroid: [vk] t=168.5 frame 4526 29.7 fps max 45ms level - (179091 draws, 0 skipped, 10463 passes, 1102 dispatches, 460 flushes, wait 547ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 933.1MB, binds 37948 pipe 136799 sets, gpu mem 1671MB, 712 textures)
+11-01 20:59:52.164 12070 12154 I BOTWRecompAndroid: [vk] t=170.5 frame 4586 30.0 fps max 46ms level - (179204 draws, 0 skipped, 10460 passes, 1101 dispatches, 428 flushes, wait 229ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 933.5MB, binds 38025 pipe 136888 sets, gpu mem 1671MB, 713 textures)
+11-01 20:59:54.165 12070 12154 I BOTWRecompAndroid: [vk] t=172.5 frame 4646 30.0 fps max 34ms level - (179205 draws, 1 skipped, 10466 passes, 1102 dispatches, 463 flushes, wait 450ms, compile 1 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 934.1MB, binds 38070 pipe 136735 sets, gpu mem 1671MB, 716 textures)
+11-01 20:59:56.190 12070 12154 I BOTWRecompAndroid: [vk] t=174.5 frame 4706 29.6 fps max 40ms level - (179197 draws, 0 skipped, 10463 passes, 1102 dispatches, 481 flushes, wait 314ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 933.4MB, binds 38058 pipe 136728 sets, gpu mem 1671MB, 716 textures)
+11-01 20:59:58.205 12070 12154 I BOTWRecompAndroid: [vk] t=176.5 frame 4766 29.8 fps max 43ms level - (178376 draws, 0 skipped, 10458 passes, 1102 dispatches, 434 flushes, wait 692ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 931.8MB, binds 38153 pipe 136156 sets, gpu mem 1671MB, 718 textures)
+11-01 21:00:00.235 12070 12154 I BOTWRecompAndroid: [vk] t=178.5 frame 4827 30.0 fps max 40ms level - (180159 draws, 0 skipped, 10621 passes, 1119 dispatches, 434 flushes, wait 340ms, compile 0 (waited 0ms), fbcopy 976 (read 10126, breaks 0), upload 946.7MB, binds 38518 pipe 137495 sets, gpu mem 1671MB, 718 textures)
+11-01 21:00:02.235 12070 12154 I BOTWRecompAndroid: [vk] t=180.6 frame 4887 30.0 fps max 38ms level - (176062 draws, 0 skipped, 10461 passes, 1100 dispatches, 433 flushes, wait 401ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 931.8MB, binds 37844 pipe 134436 sets, gpu mem 1671MB, 719 textures)
+11-01 21:00:04.236 12070 12154 I BOTWRecompAndroid: [vk] t=182.6 frame 4947 30.0 fps max 34ms level - (175427 draws, 0 skipped, 10464 passes, 1102 dispatches, 440 flushes, wait 193ms, compile 0 (waited 0ms), fbcopy 960 (read 9960, breaks 0), upload 932.7MB, binds 37635 pipe 134102 sets, gpu mem 1671MB, 720 textures)
+11-01 21:00:06.258 12070 12154 I BOTWRecompAndroid: [vk] t=184.6 frame 5005 28.7 fps max 111ms level - (108322 draws, 81 skipped, 7524 passes, 439 dispatches, 374 flushes, wait 137ms, compile 118 (waited 108ms), fbcopy 400 (read 4216, breaks 0), upload 467.5MB, binds 29062 pipe 91070 sets, gpu mem 1719MB, 855 textures)
+11-01 21:00:08.258 12070 12154 I BOTWRecompAndroid: [vk] t=186.6 frame 5065 30.0 fps max 34ms level - (64830 draws, 0 skipped, 5583 passes, 0 dispatches, 338 flushes, wait 25ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 112.4MB, binds 24924 pipe 64770 sets, gpu mem 1719MB, 855 textures)
+11-01 21:00:09.623 12070 12154 I BOTWRecompAndroid: [kernel] core 0, last 30 s: 55110 takes, waited 978 ms in all (longest 48.3 ms), held 45% of the time
+11-01 21:00:10.257 12070 12154 I BOTWRecompAndroid: [vk] t=188.6 frame 5125 30.0 fps max 34ms level - (64910 draws, 0 skipped, 5592 passes, 0 dispatches, 342 flushes, wait 27ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.0MB, binds 25082 pipe 64850 sets, gpu mem 1719MB, 855 textures)
+11-01 21:00:12.258 12070 12154 I BOTWRecompAndroid: [vk] t=190.6 frame 5185 30.0 fps max 35ms level - (64846 draws, 0 skipped, 5583 passes, 0 dispatches, 350 flushes, wait 28ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 112.8MB, binds 24950 pipe 64786 sets, gpu mem 1719MB, 855 textures)
+11-01 21:00:14.258 12070 12154 I BOTWRecompAndroid: [vk] t=192.6 frame 5245 30.0 fps max 35ms level - (64830 draws, 0 skipped, 5591 passes, 0 dispatches, 360 flushes, wait 32ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 112.7MB, binds 24926 pipe 64770 sets, gpu mem 1719MB, 855 textures)
+11-01 21:00:16.258 12070 12154 I BOTWRecompAndroid: [vk] t=194.6 frame 5305 30.0 fps max 35ms level - (64830 draws, 0 skipped, 5594 passes, 0 dispatches, 371 flushes, wait 32ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.0MB, binds 24929 pipe 64770 sets, gpu mem 1719MB, 855 textures)
+11-01 21:00:18.258 12070 12154 I BOTWRecompAndroid: [vk] t=196.6 frame 5365 30.0 fps max 34ms level - (64910 draws, 0 skipped, 5589 passes, 0 dispatches, 382 flushes, wait 31ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.0MB, binds 25087 pipe 64850 sets, gpu mem 1719MB, 852 textures)
+11-01 21:00:20.259 12070 12154 I BOTWRecompAndroid: [vk] t=198.6 frame 5425 30.0 fps max 34ms level - (64846 draws, 0 skipped, 5606 passes, 0 dispatches, 384 flushes, wait 33ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 112.9MB, binds 24971 pipe 64786 sets, gpu mem 1719MB, 843 textures)
+11-01 21:00:22.259 12070 12154 I BOTWRecompAndroid: [vk] t=200.6 frame 5485 30.0 fps max 36ms level - (64830 draws, 0 skipped, 5610 passes, 0 dispatches, 386 flushes, wait 33ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.0MB, binds 24939 pipe 64770 sets, gpu mem 1713MB, 832 textures)
+11-01 21:00:24.258 12070 12154 I BOTWRecompAndroid: [vk] t=202.6 frame 5545 30.0 fps max 34ms level - (64830 draws, 0 skipped, 5624 passes, 0 dispatches, 396 flushes, wait 35ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 112.8MB, binds 24942 pipe 64770 sets, gpu mem 1703MB, 821 textures)
+11-01 21:00:26.258 12070 12154 I BOTWRecompAndroid: [vk] t=204.6 frame 5605 30.0 fps max 41ms level - (64910 draws, 0 skipped, 5612 passes, 0 dispatches, 383 flushes, wait 35ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.3MB, binds 25102 pipe 64850 sets, gpu mem 1703MB, 821 textures)
+11-01 21:00:28.259 12070 12154 I BOTWRecompAndroid: [vk] t=206.6 frame 5665 30.0 fps max 36ms level - (64846 draws, 0 skipped, 5603 passes, 0 dispatches, 388 flushes, wait 35ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.4MB, binds 24967 pipe 64786 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:30.258 12070 12154 I BOTWRecompAndroid: [vk] t=208.6 frame 5725 30.0 fps max 35ms level - (64830 draws, 0 skipped, 5621 passes, 0 dispatches, 384 flushes, wait 34ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.0MB, binds 24947 pipe 64770 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:32.258 12070 12154 I BOTWRecompAndroid: [vk] t=210.6 frame 5785 30.0 fps max 35ms level - (64830 draws, 0 skipped, 5621 passes, 0 dispatches, 387 flushes, wait 34ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.0MB, binds 24943 pipe 64770 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:34.258 12070 12154 I BOTWRecompAndroid: [vk] t=212.6 frame 5845 30.0 fps max 35ms level - (64910 draws, 0 skipped, 5621 passes, 0 dispatches, 401 flushes, wait 38ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.2MB, binds 25107 pipe 64850 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:36.258 12070 12154 I BOTWRecompAndroid: [vk] t=214.6 frame 5905 30.0 fps max 34ms level - (64846 draws, 0 skipped, 5612 passes, 0 dispatches, 390 flushes, wait 35ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.0MB, binds 24971 pipe 64786 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:38.259 12070 12154 I BOTWRecompAndroid: [vk] t=216.6 frame 5965 30.0 fps max 34ms level - (64830 draws, 0 skipped, 5599 passes, 0 dispatches, 399 flushes, wait 37ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.1MB, binds 24933 pipe 64770 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:39.624 12070 12154 I BOTWRecompAndroid: [kernel] core 0, last 30 s: 32141 takes, waited 345 ms in all (longest 17.0 ms), held 55% of the time
+11-01 21:00:40.259 12070 12154 I BOTWRecompAndroid: [vk] t=218.6 frame 6025 30.0 fps max 34ms level - (64830 draws, 0 skipped, 5619 passes, 0 dispatches, 362 flushes, wait 33ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 112.6MB, binds 24947 pipe 64770 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:42.292 12070 12154 I BOTWRecompAndroid: [vk] t=220.6 frame 6086 30.0 fps max 35ms level - (65997 draws, 0 skipped, 5711 passes, 0 dispatches, 400 flushes, wait 38ms, compile 0 (waited 0ms), fbcopy 0 (read 122, breaks 0), upload 114.9MB, binds 25537 pipe 65936 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:44.292 12070 12154 I BOTWRecompAndroid: [vk] t=222.6 frame 6146 30.0 fps max 34ms level - (64838 draws, 0 skipped, 5606 passes, 0 dispatches, 387 flushes, wait 35ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.2MB, binds 24952 pipe 64778 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:46.296 12070 12154 I BOTWRecompAndroid: [vk] t=224.6 frame 6206 30.0 fps max 35ms level - (64830 draws, 0 skipped, 5628 passes, 0 dispatches, 406 flushes, wait 37ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.1MB, binds 24959 pipe 64770 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:48.326 12070 12154 I BOTWRecompAndroid: [vk] t=226.6 frame 6267 30.0 fps max 35ms level - (65909 draws, 0 skipped, 5709 passes, 0 dispatches, 404 flushes, wait 35ms, compile 0 (waited 0ms), fbcopy 0 (read 122, breaks 0), upload 115.1MB, binds 25354 pipe 65848 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:50.325 12070 12154 I BOTWRecompAndroid: [vk] t=228.6 frame 6327 30.0 fps max 35ms level - (64926 draws, 0 skipped, 5610 passes, 0 dispatches, 394 flushes, wait 40ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.4MB, binds 25132 pipe 64866 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:52.325 12070 12154 I BOTWRecompAndroid: [vk] t=230.6 frame 6387 30.0 fps max 35ms level - (64830 draws, 0 skipped, 5603 passes, 0 dispatches, 391 flushes, wait 35ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.0MB, binds 24935 pipe 64770 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:54.325 12070 12154 I BOTWRecompAndroid: [vk] t=232.6 frame 6447 30.0 fps max 35ms level - (64830 draws, 0 skipped, 5614 passes, 0 dispatches, 388 flushes, wait 33ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.0MB, binds 24946 pipe 64770 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:56.325 12070 12154 I BOTWRecompAndroid: [vk] t=234.6 frame 6507 30.0 fps max 35ms level - (64830 draws, 0 skipped, 5604 passes, 0 dispatches, 386 flushes, wait 35ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 112.7MB, binds 24932 pipe 64770 sets, gpu mem 1702MB, 813 textures)
+11-01 21:00:58.327 12070 12154 I BOTWRecompAndroid: [vk] t=236.6 frame 6567 30.0 fps max 35ms level - (64926 draws, 0 skipped, 5597 passes, 0 dispatches, 391 flushes, wait 35ms, compile 0 (waited 0ms), fbcopy 0 (read 120, breaks 0), upload 113.1MB, binds 25132 pipe 64866 sets, gpu mem 1702MB, 813 textures)
